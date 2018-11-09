@@ -21,38 +21,27 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
+<!-- start Bootstrap container -->
+<div id="page" class="site container">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'custom-theme-for-the-shenandoah-literary-magazine' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$shenAleph_description = get_bloginfo( 'description', 'display' );
-			if ( $shenAleph_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $shenAleph_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
+			<section class="topbanner" id="typelogo-container">
+				<div class="row">
+			<div class="col-md-8">
+					<span id="typelogo"><a href="#">Shenandoah</a></span>
+
+				<nav class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row nav-justified" >
+					<a class="nav-item nav-link btn-ilqmenu" href="#">Archives</a>
+					<a class="nav-item nav-link  btn-ilqmenu" href="#">Masthead</a>
+					<a class="nav-item nav-link btn-ilqmenu" href="#">Submit</a>
+				</nav>
+				</div>
+		</div>
+		</section>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'custom-theme-for-the-shenandoah-literary-magazine' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
