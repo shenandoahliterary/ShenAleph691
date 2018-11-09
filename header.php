@@ -37,10 +37,10 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
-			$custom_theme_for_the_shenandoah_literary_magazine_description = get_bloginfo( 'description', 'display' );
-			if ( $custom_theme_for_the_shenandoah_literary_magazine_description || is_customize_preview() ) :
+			$shenAleph_description = get_bloginfo( 'description', 'display' );
+			if ( $shenAleph_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $custom_theme_for_the_shenandoah_literary_magazine_description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $shenAleph_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 

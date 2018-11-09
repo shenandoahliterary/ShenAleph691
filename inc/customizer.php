@@ -10,7 +10,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function custom_theme_for_the_shenandoah_literary_magazine_customize_register( $wp_customize ) {
+function shenAleph_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
@@ -18,22 +18,22 @@ function custom_theme_for_the_shenandoah_literary_magazine_customize_register( $
 	if ( isset( $wp_customize->selective_refresh ) ) {
 		$wp_customize->selective_refresh->add_partial( 'blogname', array(
 			'selector'        => '.site-title a',
-			'render_callback' => 'custom_theme_for_the_shenandoah_literary_magazine_customize_partial_blogname',
+			'render_callback' => 'shenAleph_customize_partial_blogname',
 		) );
 		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
 			'selector'        => '.site-description',
-			'render_callback' => 'custom_theme_for_the_shenandoah_literary_magazine_customize_partial_blogdescription',
+			'render_callback' => 'shenAleph_customize_partial_blogdescription',
 		) );
 	}
 }
-add_action( 'customize_register', 'custom_theme_for_the_shenandoah_literary_magazine_customize_register' );
+add_action( 'customize_register', 'shenAleph_customize_register' );
 
 /**
  * Render the site title for the selective refresh partial.
  *
  * @return void
  */
-function custom_theme_for_the_shenandoah_literary_magazine_customize_partial_blogname() {
+function shenAleph_customize_partial_blogname() {
 	bloginfo( 'name' );
 }
 
@@ -42,14 +42,14 @@ function custom_theme_for_the_shenandoah_literary_magazine_customize_partial_blo
  *
  * @return void
  */
-function custom_theme_for_the_shenandoah_literary_magazine_customize_partial_blogdescription() {
+function shenAleph_customize_partial_blogdescription() {
 	bloginfo( 'description' );
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function custom_theme_for_the_shenandoah_literary_magazine_customize_preview_js() {
+function shenAleph_customize_preview_js() {
 	wp_enqueue_script( 'custom-theme-for-the-shenandoah-literary-magazine-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'custom_theme_for_the_shenandoah_literary_magazine_customize_preview_js' );
+add_action( 'customize_preview_init', 'shenAleph_customize_preview_js' );

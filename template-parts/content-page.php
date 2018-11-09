@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php custom_theme_for_the_shenandoah_literary_magazine_post_thumbnail(); ?>
+	<?php shenAleph_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php

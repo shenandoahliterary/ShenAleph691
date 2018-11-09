@@ -28,8 +28,8 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$custom_theme_for_the_shenandoah_literary_magazine_comment_count = get_comments_number();
-			if ( '1' === $custom_theme_for_the_shenandoah_literary_magazine_comment_count ) {
+			$shenAleph_comment_count = get_comments_number();
+			if ( '1' === $shenAleph_comment_count ) {
 				printf(
 					/* translators: 1: title. */
 					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'custom-theme-for-the-shenandoah-literary-magazine' ),
@@ -38,8 +38,8 @@ if ( post_password_required() ) {
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $custom_theme_for_the_shenandoah_literary_magazine_comment_count, 'comments title', 'custom-theme-for-the-shenandoah-literary-magazine' ) ),
-					number_format_i18n( $custom_theme_for_the_shenandoah_literary_magazine_comment_count ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $shenAleph_comment_count, 'comments title', 'custom-theme-for-the-shenandoah-literary-magazine' ) ),
+					number_format_i18n( $shenAleph_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			}

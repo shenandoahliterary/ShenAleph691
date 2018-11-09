@@ -7,7 +7,7 @@
  * @package ShenAleph
  */
 
-if ( ! function_exists( 'custom_theme_for_the_shenandoah_literary_magazine_setup' ) ) :
+if ( ! function_exists( 'shenAleph_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -15,7 +15,7 @@ if ( ! function_exists( 'custom_theme_for_the_shenandoah_literary_magazine_setup
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function custom_theme_for_the_shenandoah_literary_magazine_setup() {
+	function shenAleph_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
@@ -60,7 +60,7 @@ if ( ! function_exists( 'custom_theme_for_the_shenandoah_literary_magazine_setup
 		) );
 
 		// Set up the WordPress core custom background feature.
-		add_theme_support( 'custom-background', apply_filters( 'custom_theme_for_the_shenandoah_literary_magazine_custom_background_args', array(
+		add_theme_support( 'custom-background', apply_filters( 'shenAleph_custom_background_args', array(
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
@@ -81,7 +81,7 @@ if ( ! function_exists( 'custom_theme_for_the_shenandoah_literary_magazine_setup
 		) );
 	}
 endif;
-add_action( 'after_setup_theme', 'custom_theme_for_the_shenandoah_literary_magazine_setup' );
+add_action( 'after_setup_theme', 'shenAleph_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -90,20 +90,20 @@ add_action( 'after_setup_theme', 'custom_theme_for_the_shenandoah_literary_magaz
  *
  * @global int $content_width
  */
-function custom_theme_for_the_shenandoah_literary_magazine_content_width() {
+function shenAleph_content_width() {
 	// This variable is intended to be overruled from themes.
 	// Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-	$GLOBALS['content_width'] = apply_filters( 'custom_theme_for_the_shenandoah_literary_magazine_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'shenAleph_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'custom_theme_for_the_shenandoah_literary_magazine_content_width', 0 );
+add_action( 'after_setup_theme', 'shenAleph_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function custom_theme_for_the_shenandoah_literary_magazine_widgets_init() {
+function shenAleph_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'custom-theme-for-the-shenandoah-literary-magazine' ),
 		'id'            => 'sidebar-1',
@@ -114,12 +114,12 @@ function custom_theme_for_the_shenandoah_literary_magazine_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'custom_theme_for_the_shenandoah_literary_magazine_widgets_init' );
+add_action( 'widgets_init', 'shenAleph_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function custom_theme_for_the_shenandoah_literary_magazine_scripts() {
+function shenAleph_scripts() {
 	wp_enqueue_style( 'custom-theme-for-the-shenandoah-literary-magazine-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'custom-theme-for-the-shenandoah-literary-magazine-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -130,7 +130,7 @@ function custom_theme_for_the_shenandoah_literary_magazine_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'custom_theme_for_the_shenandoah_literary_magazine_scripts' );
+add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
 
 /**
  * Implement the Custom Header feature.
