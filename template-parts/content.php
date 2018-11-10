@@ -22,9 +22,12 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 			<div class="entry-meta">
+
 				<?php
+				/*
 				shenAleph_posted_on();
 				shenAleph_posted_by();
+				*/
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
