@@ -123,6 +123,10 @@ function shenAleph_scripts() {
 	wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
 	wp_enqueue_style( 'shenAleph', get_stylesheet_uri() );
 
+  wp_enqueue_style('font', get_template_directory_uri().'/thein/Theinhardt-Medium.css');
+
+
+
 	wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js');
 
 	wp_enqueue_script( 'shenAleph-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
