@@ -139,6 +139,14 @@ function shenAleph_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
 
+
+
+
+function shenAleph_empty_email_error( $arg ) {
+    if ( !empty( $arg->errors['empty_email'] ) ) unset( $arg->errors['empty_email'] );
+}
+add_action( 'user_profile_update_errors', 'shenAleph_empty_email_error' );
+
 /**
  * Implement the Custom Header feature.
  */

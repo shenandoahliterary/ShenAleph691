@@ -13,9 +13,12 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
+	<footer id="colophon" class="site-footer container">
+		<div class="site-info row">
+			<div>
+				<p>Shenandoah is the Washington and Lee University Review</p>
 
+			</div>
 
 
 		</div><!-- .site-info -->
