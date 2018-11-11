@@ -23,7 +23,7 @@
 			?>
 			<div class="entry-meta">
 				<!-- add byline -->
-				<p class="workAuthor"><?php the_author_meta('display_name') ?></p>
+				<p class="workAuthorByline"><?php the_author_meta('display_name') ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -51,7 +51,12 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
+<!-- author bio -->
+<section>
+	<p class="workAuthor"><?php the_author_meta('display_name') ?></p>
+	<p class="workAuthorBio"><?php the_author_meta('description') ?></p>
 
+</section>
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
