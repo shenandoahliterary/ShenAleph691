@@ -141,6 +141,17 @@ add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
 
 
 
+### Function: Add Author Custom Fields
+
+function add_author_fields($post_ID) {
+	global $wpdb;
+	$user_id = $wpdb->get_var("SELECT post_author FROM $wpdb->posts WHERE ID = $post_ID");
+	$author_last = $wpdb->get_var("SELECT meta_value FROM $wpdb->usermeta WHERE meta_key = 'last_name' AND user_id = $user_id");
+	update_post_meta($post_ID, 'author_lastname', $author_last);
+}
+
+add_action('publish_post', 'add_author_fields');
+
 
 function shenAleph_empty_email_error( $arg ) {
     if ( !empty( $arg->errors['empty_email'] ) ) unset( $arg->errors['empty_email'] );

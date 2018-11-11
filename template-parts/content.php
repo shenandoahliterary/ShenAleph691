@@ -22,13 +22,8 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 			<div class="entry-meta">
-
-				<?php
-				/*
-				shenAleph_posted_on();
-				shenAleph_posted_by();
-				*/
-				?>
+				<!-- add byline -->
+				<p class="workAuthor"><?php the_author_meta('display_name') ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
