@@ -407,6 +407,13 @@ textarea {
 	line-height: 1.5;
 }
 
+#typelogo {
+		font-family: "Theinhardt";
+		font-weight: 500;
+		font-size: 72px;
+		text-transform: uppercase;
+}
+
 .entry-title {
 	font-family: "Theinhardt";
 	font-weight: 500;
@@ -647,6 +654,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.shen-nav {
+	display: inline-block;
+}
+
+
 .main-navigation {
 	clear: both;
 	display: block;

@@ -27,14 +27,24 @@
 
 			<section class="topbanner container" id="typelogo-container">
 				<div class="row">
-			<div class="col-md-4">
-					<span id="typelogo"><a href="#">Shenandoah</a></span>
+			<div class="col-md-3">
+			<?php	the_custom_logo(); ?>
+		</div>
+		<div class="col-md-9">
+			<span id="typelogo">Shenandoah</span>
+		<!--	<nav class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row nav-justified" >
+		<div class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row" >
+			<a class="nav-item nav-link btn-ilqmenu" href="#">Archives</a>
+			<a class="nav-item nav-link  btn-ilqmenu" href="#">Masthead</a>
+			<a class="nav-item nav-link btn-ilqmenu" href="#">Submit</a>
+		</div>
 
-				<nav class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row nav-justified" >
+-->
+				<div class="shen-nav d-flex flex-column flex-sm-row" >
 					<a class="nav-item nav-link btn-ilqmenu" href="#">Archives</a>
 					<a class="nav-item nav-link  btn-ilqmenu" href="#">Masthead</a>
 					<a class="nav-item nav-link btn-ilqmenu" href="#">Submit</a>
-				</nav>
+				</div>
 				</div>
 		</div>
 		</section>

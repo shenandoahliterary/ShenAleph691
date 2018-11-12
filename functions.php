@@ -74,8 +74,8 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
+		//	'height'      => 250,
+		//	'width'       => 250,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );

@@ -2,11 +2,12 @@
 /**
  * The Sidebar containing the primary and secondary widget areas.
  *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
  */
 ?>
+<section class="container-fluid">
+<img src="https://via.placeholder.com/1400x500.png">
+</section>
+
 
 		<div id="primary" class="widget-area" role="complementary">
 	 		<h2>Table of Contents</h2>
@@ -143,19 +144,7 @@
     				<?php endwhile; ?>
     				</ul>
     			</div>	-->
- <h3><a href="#">Gallery</a></h3>
-    			<div>
-    				<ul>
-    				<?php 	$reading_loop = new WP_Query('cat=5&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
-    						while ($reading_loop->have_posts()) : $reading_loop->the_post();
-    						 ?>
-    						<li><span class="author_name"><?php the_author(); ?> </span><br />
-    						<a href="<?php the_permalink(); ?>">
-    						<?php the_title(); ?>
-    						</a></li>
-    				<?php endwhile; ?>
-    				</ul>
-    			</div>
+
  <!-- <h3><a href="#">Audio</a></h3>
     			<div>
     				<ul>
