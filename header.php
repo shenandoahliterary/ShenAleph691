@@ -25,13 +25,13 @@
 <!-- start Bootstrap container -->
 <div id="page" class="site">
 
-			<section class="topbanner container" id="typelogo-container">
-				<div class="row">
-			<div class="col-md-3">
+			<section class="topbanner container-fluid" id="typelogo-container">
+				<div class="row no-gutters">
+			<div class="col-md-3 typelogo-column">
 			<?php	the_custom_logo(); ?>
 		</div>
-		<div class="col-md-9">
-			<span id="typelogo">Shenandoah</span>
+		<div class="col-md-8">
+			<h1 class="text-right" id="typelogo">Shenandoah</h1>
 		<!--	<nav class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row nav-justified" >
 		<div class="nav nav-pills mx-auto my-3 mr-md-3  my-md-3 d-flex flex-column flex-sm-row" >
 			<a class="nav-item nav-link btn-ilqmenu" href="#">Archives</a>
@@ -40,10 +40,10 @@
 		</div>
 
 -->
-				<div class="shen-nav d-flex flex-column flex-sm-row" >
-					<a class="nav-item nav-link btn-ilqmenu" href="#">Archives</a>
-					<a class="nav-item nav-link  btn-ilqmenu" href="#">Masthead</a>
-					<a class="nav-item nav-link btn-ilqmenu" href="#">Submit</a>
+				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
+					<a class="nav-item nav-link" href="#">About</a>
+					<a class="nav-item nav-link" href="#">Archives</a>
+					<a class="nav-item nav-link" href="#">Submit</a>
 				</div>
 				</div>
 		</div>

@@ -407,11 +407,21 @@ textarea {
 	line-height: 1.5;
 }
 
+.typelogo-column {
+	margin-right: -3.75rem;
+}
+
+
 #typelogo {
 		font-family: "Theinhardt";
 		font-weight: 500;
-		font-size: 72px;
+		font-size: 8.725rem;
 		text-transform: uppercase;
+		margin:0 0 -2rem 0;
+}
+
+.TOCsection {
+	margin-top: 4rem;
 }
 
 .entry-title {
@@ -490,6 +500,21 @@ body {
 	background: #fff;
 	/* Fallback for when there is no custom background color defined. */
 }
+
+.container-fluid {
+	padding: 0;
+}
+
+.topbanner {
+	border-bottom: 2px solid #a37a75;
+}
+
+.volumeIssue {
+	background-color: #a37a75;
+	color: white;
+	font-size: 24px;
+}
+
 
 hr {
 	background-color: #ccc;
@@ -632,15 +657,16 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #df6348;
 }
 
 a:visited {
-	color: purple;
+	color: #df6348;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: #75aba7;
+	font-style: italic;
 }
 
 a:focus {
@@ -658,6 +684,14 @@ a:hover, a:active {
 	display: inline-block;
 }
 
+.nav-item {
+	font-size: 1.125em;
+	line-height: 2.25em;
+	font-family: "Theinhardt";
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #df6348;
+}
 
 .main-navigation {
 	clear: both;
