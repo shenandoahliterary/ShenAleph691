@@ -48,10 +48,12 @@
 		    				<?php 	$reviews_loop = new WP_Query('cat=6&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
 		    						while ($reviews_loop->have_posts()) : $reviews_loop->the_post();
 		    						 ?>
+										 <p>
 										 <a href="<?php the_permalink(); ?>">
  		    						<?php the_title(); ?>
  		    						</a><br />
 		    						<span class="author_name"><?php the_author(); ?> </span>
+									</p>
 		    				<?php endwhile; ?>
 		    			</div>
 
@@ -101,8 +103,9 @@
 				$i = 0;
 					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
 					if ($i == 0) { ?>
-						<a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
-						<span class="author_name"><?php the_author(); ?> </span><br /><?php }
+
+						<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
+						<span class="author_name"><?php the_author(); ?> </span></p><?php }
 						?>
 
 					<?php
