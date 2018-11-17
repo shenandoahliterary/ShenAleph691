@@ -26,7 +26,7 @@
 <div id="page" class="site">
 
 			<section class="topbanner container-fluid" id="typelogo-container">
-				<div class="row no-gutters">
+				<div class="row">
 			<div class="col-md-3 typelogo-column">
 			<?php	the_custom_logo(); ?>
 		</div>
