@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer container">
 		<div class="site-info row">
 			<div>
-				<p class="text-right">Shenandoah is the Washington and Lee University Review</p>
+				<p class="text-right">[footer info: social media icons, copyright]</p>
 
 			</div>
 

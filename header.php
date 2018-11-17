@@ -27,7 +27,7 @@
 
 			<section class="topbanner container-fluid" id="typelogo-container">
 				<div class="row">
-			<div class="col-md-3 typelogo-column">
+			<div class="col-md-2 offset-md-1 typelogo-column">
 			<?php	the_custom_logo(); ?>
 		</div>
 		<div class="col-md-8">

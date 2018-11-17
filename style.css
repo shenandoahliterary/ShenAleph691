@@ -410,10 +410,12 @@ textarea {
 .custom-logo {
 	border-radius: 50%;
 
+
 }
 
 .typelogo-column {
 	margin-right: -3.75rem;
+	padding-left: 5.125rem;
 }
 
 

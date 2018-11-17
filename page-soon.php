@@ -29,8 +29,8 @@
  <div id="page" class="site">
 	 <!-- removed topbanner class on section in order to remove border bottom color -->
  			<section class="container-fluid" id="typelogo-container">
- 				<div class="row no-gutters">
- 			<div class="col-md-3 typelogo-column">
+ 				<div class="row">
+					<div class="col-md-2 offset-md-1 typelogo-column">
  			<?php	the_custom_logo(); ?>
  		</div>
  		<div class="col-md-8">
