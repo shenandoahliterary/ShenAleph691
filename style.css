@@ -665,8 +665,10 @@ a:visited {
 }
 
 a:hover, a:focus, a:active {
-	color: #75aba7;
-	font-style: italic;
+	color: #df6348;
+
+/*	color: #75aba7;*/
+	/*font-style: italic;*/
 }
 
 a:focus {
@@ -895,6 +897,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.author_name {
+	font-size: 1.25rem;
+}
+
 .sticky {
 	display: block;
 }
