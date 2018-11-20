@@ -42,7 +42,7 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		
+
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
@@ -161,6 +161,57 @@ function shenAleph_empty_email_error( $arg ) {
     if ( !empty( $arg->errors['empty_email'] ) ) unset( $arg->errors['empty_email'] );
 }
 add_action( 'user_profile_update_errors', 'shenAleph_empty_email_error' );
+
+/**
+* Hanldes multiple authors per post
+*/
+function shenAleph_filter_authors(){
+	$custom_fields = get_post_custom();
+
+	$my_custom_field = $custom_fields['author_lastname'];
+	echo "$my_custom_field[1]";
+
+		foreach ( $my_custom_field as $key => $value ) {
+			echo $key . " => " . $value . "<br />";
+
+			if ($key > 0) {
+
+				$args_authors = array(
+									 // 'user_login'   => 'lillywimberly'
+										 'meta_key' => "last_name",
+										 'meta_value' => "$my_custom_field[1]",
+										 'meta_compare' => 'LIKE'
+									 );
+				echo '<pre>'; print_r($args_authors); echo '</pre>';
+					$author_loop = new WP_User_Query($args_authors);
+					$author_names = $author_loop->get_results();
+
+
+					if (! empty($author_names)) {
+
+						foreach ($author_names as $author_name) {
+
+							echo "$author_name->display_name";
+						}
+					}
+						else {echo "No authors found";}
+
+					}
+			}
+			// query user database on lastname to get dsiplay_name for second author_name
+			// how to prioritize display of author names?
+
+
+
+
+
+
+
+
+
+}
+
+
 
 /**
  * Implement the Custom Header feature.

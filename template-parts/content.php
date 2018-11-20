@@ -24,49 +24,7 @@
 			<div class="entry-meta">
 				<!-- add byline -->
 				<p class="workAuthorByline"><?php
- 				$custom_fields = get_post_custom();
-
-				$my_custom_field = $custom_fields['author_lastname'];
-				echo "$my_custom_field[1]";
-
-				  foreach ( $my_custom_field as $key => $value ) {
-				    echo $key . " => " . $value . "<br />";
-
-						if ($key > 0) {
-
-							$args_authors = array(
-							           // 'user_login'   => 'lillywimberly'
-													 'meta_key' => "last_name",
-													 'meta_value' => "$my_custom_field[1]",
-													 'meta_compare' => 'LIKE'
-												 );
-							echo '<pre>'; print_r($args_authors); echo '</pre>';
-								$author_loop = new WP_User_Query($args_authors);
-							  $author_names = $author_loop->get_results();
-
-
-								if (! empty($author_names)) {
-
-									foreach ($author_names as $author_name) {
-
-										echo "$author_name->display_name";
-									}
-								}
-									else {echo "No authors found";}
-
-								}
-						}
-						// query user database on lastname to get dsiplay_name for second author_name
-						// how to prioritize display of author names?
-
-
-
-
-
-
-
-
-
+ 				shenAleph_filter_authors();
 			 the_author_meta('display_name') ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
