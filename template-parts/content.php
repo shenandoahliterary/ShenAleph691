@@ -27,6 +27,7 @@
  				$custom_fields = get_post_custom();
 
 				$my_custom_field = $custom_fields['author_lastname'];
+				echo "$my_custom_field[1]";
 
 				  foreach ( $my_custom_field as $key => $value ) {
 				    echo $key . " => " . $value . "<br />";
@@ -36,7 +37,7 @@
 							$args_authors = array(
 							           // 'user_login'   => 'lillywimberly'
 													 'meta_key' => "last_name",
-													 'meta_value' => "wimberly",
+													 'meta_value' => "$my_custom_field[1]",
 													 'meta_compare' => 'LIKE'
 												 );
 							echo '<pre>'; print_r($args_authors); echo '</pre>';
@@ -45,11 +46,10 @@
 
 
 								if (! empty($author_names)) {
- 									echo "$my_custom_field";
 
 									foreach ($author_names as $author_name) {
 
-										echo "display: $author_name->display_name";
+										echo "$author_name->display_name";
 									}
 								}
 									else {echo "No authors found";}
