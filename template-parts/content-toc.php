@@ -27,7 +27,10 @@
 						<span class="author_name"><?php the_author(); ?></span>
 
 				</p>
-			<?php endwhile; ?>
+			<?php endwhile;
+wp_reset_postdata();
+			?>
+
 		</div>
 		<h3>Nonfiction</h3>
 		<div>
@@ -40,7 +43,9 @@
  					</a><br />
 					<span class="author_name"><?php the_author(); ?> </span>
 </p>
-			<?php endwhile; ?>
+			<?php endwhile;
+wp_reset_postdata();
+			?>
 		</div>
 
 		<h3>Interviews</h3>
@@ -54,7 +59,9 @@
  		    						</a><br />
 		    						<span class="author_name"><?php the_author(); ?> </span>
 									</p>
-		    				<?php endwhile; ?>
+		    				<?php endwhile;
+wp_reset_postdata();
+								?>
 		    			</div>
 
 							<h3>Comics</h3>
@@ -66,7 +73,10 @@
 			    						<a href="<?php the_permalink(); ?>">
 			    						<?php the_title(); ?>
 			    						</a>
-			    				<?php endwhile; ?>
+			    				<?php endwhile;
+wp_reset_postdata();
+
+									?>
 			    			</div>
 
 
@@ -111,6 +121,7 @@
 					<?php
 					$i++;
 				endwhile;
+				wp_reset_postdata();
 				}
 				?>
 
@@ -125,3 +136,75 @@
 </div> <!-- close row -->
 
 </section>
+
+<section class="container TOC-quote">
+<div class="row">
+	<div class="col-md-8 offset-md-2 h-100">
+<?php
+$args = array(
+    'meta_key'         => 'add-quote-to-toc',
+		'meta_value'   => 'Yes',
+		'compare' => 'Like',
+		'post_type'        => 'page',
+    'post_status'      => 'publish',
+
+);
+$query = new WP_Query($args);
+
+if ($query->have_posts()) :
+		 while($query->have_posts()) :
+				$query->the_post();
+?>
+
+				<?php the_content() ?>
+
+<?php
+		 endwhile;
+	else:
+?>
+
+		 Oops, there are no posts.
+
+<?php
+	endif;
+	wp_reset_postdata();
+?>
+		</div>
+	</div>
+</section>
+<section class="container-fluid TOC-features">
+		<div class="card-group">
+			<?php
+			$args = array(
+			    'category_name'         => 'feature',
+
+			);
+			$category_posts = new WP_Query($args);
+
+			if ($category_posts->have_posts()) :
+					 while($category_posts->have_posts()) :
+							$category_posts->the_post();
+			?>
+			<div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+				<h5 class="card-title"><?php the_title() ?></h5>
+				<p class="card-text"><?php the_content() ?></p>
+			</div>
+		</div>
+
+			<?php
+					 endwhile;
+				else:
+			?>
+
+					 Oops, there are no features.
+
+			<?php
+				endif;
+				wp_reset_postdata();
+			?>
+
+</section>
+</div>
+</div>

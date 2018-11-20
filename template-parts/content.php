@@ -23,7 +23,25 @@
 			?>
 			<div class="entry-meta">
 				<!-- add byline -->
-				<p class="workAuthorByline"><?php the_author_meta('display_name') ?></p>
+				<p class="workAuthorByline"><?php
+ 				$custom_fields = get_post_custom();
+				$my_custom_field = $custom_fields['author_lastname'];
+
+				  foreach ( $my_custom_field as $key => $value ) {
+				    echo $key . " => " . $value . "<br />";
+
+						if ($key > 1) {
+
+						}
+						// query user database on lastname
+
+						$author_loop = new WP_Query('meta_key=author_lastname');
+				  }
+
+
+
+
+			 the_author_meta('display_name') ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

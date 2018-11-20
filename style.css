@@ -527,8 +527,14 @@ body {
 }
 .TOCsection p {
 	font-size: 1.25rem;
-
 }
+
+.TOC-quote {
+	min-height: 14rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
 .TOC-text {
 
 }
