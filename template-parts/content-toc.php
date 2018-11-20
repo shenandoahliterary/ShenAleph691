@@ -48,21 +48,21 @@ wp_reset_postdata();
 			?>
 		</div>
 
-		<h3>Interviews</h3>
-		    			<div>
-		    				<?php 	$reviews_loop = new WP_Query('cat=6&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
-		    						while ($reviews_loop->have_posts()) : $reviews_loop->the_post();
-		    						 ?>
-										 <p>
-										 <a href="<?php the_permalink(); ?>">
- 		    						<?php the_title(); ?>
- 		    						</a><br />
-		    						<span class="author_name"><?php the_author(); ?> </span>
-									</p>
-		    				<?php endwhile;
-wp_reset_postdata();
-								?>
-		    			</div>
+		<h3>Translations</h3>
+		<div>
+			<?php $nonfiction_loop = new WP_Query('cat=5&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+					while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
+					 ?>
+					 <p>
+					 <a href="<?php the_permalink(); ?>">
+					<?php the_title(); ?>
+					</a><br />
+					<span class="author_name"><?php the_author(); ?> </span>
+	</p>
+			<?php endwhile;
+	wp_reset_postdata();
+			?>
+		</div>
 
 							<h3>Comics</h3>
 			    			<div>
@@ -128,7 +128,21 @@ wp_reset_postdata();
 		</div>
 
 
-
+		<h3>Interviews</h3>
+							<div>
+								<?php 	$reviews_loop = new WP_Query('cat=6&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+										while ($reviews_loop->have_posts()) : $reviews_loop->the_post();
+										 ?>
+										 <p>
+										 <a href="<?php the_permalink(); ?>">
+										<?php the_title(); ?>
+										</a><br />
+										<span class="author_name"><?php the_author(); ?> </span>
+									</p>
+								<?php endwhile;
+	wp_reset_postdata();
+								?>
+							</div>
 
 
 
@@ -186,10 +200,10 @@ if ($query->have_posts()) :
 							$category_posts->the_post();
 			?>
 			<div class="card">
-		    <img class="card-img-top" src="..." alt="Card image cap">
+		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
 		    <div class="card-body">
-				<h5 class="card-title"><?php the_title() ?></h5>
-				<p class="card-text"><?php the_content() ?></p>
+				<p class="card-text"><?php	the_content() ?></p>
 			</div>
 		</div>
 
