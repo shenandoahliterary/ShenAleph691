@@ -137,6 +137,8 @@ wp_reset_postdata();
 										 <a href="<?php the_permalink(); ?>">
 										<?php the_title(); ?>
 										</a><br />
+										<?php shenAleph_filter_authors(); ?>
+
 										<span class="author_name"><?php the_author(); ?> </span>
 									</p>
 								<?php endwhile;
