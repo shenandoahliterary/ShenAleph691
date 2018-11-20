@@ -191,7 +191,7 @@ function shenAleph_filter_authors(){
 
 						foreach ($author_names as $author_name) {
 
-							echo "$author_name->display_name";
+							echo "$author_name->display_name <br />";
 						}
 					}
 						else {echo "No authors found";}
