@@ -1,6 +1,6 @@
 <?php
 /**
- * The Sidebar containing the primary and secondary widget areas.
+ *  
  *
  */
 ?>
@@ -21,14 +21,11 @@
 		<div>
 			<?php
 			remove_all_filters('posts_orderby');
-			//$fiction_loop = new WP_Query('cat=4&orderby=meta_value_num&meta_key=TOC-order&order=asc&nopaging=true');
 			$fiction_args = array(
-				//'cat' => '4',
 				'category_name' => 'fiction',
 				'order' => 'ASC',
 				'meta_key' => 'TOC_order',
 				'orderby' => 'meta_value_num',
-			//	'orderby' => 'author',
 				'meta_type' => 'NUMERIC',
 				'nopaging' => 'true',
 

@@ -231,6 +231,14 @@ function shenAleph_filter_authors(){
 
 }
 
+/**
+ * Increase the number of custom fields that appear in dropdown
+ */
+
+add_filter( 'postmeta_form_limit', 'meta_limit_increase' );
+function meta_limit_increase( $limit ) {
+    return 75;
+}
 
 
 /**
