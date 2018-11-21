@@ -8,6 +8,12 @@
  */
 
 ?>
+<div class=""="row">
+ <div class="col-md-8 offset-md-2">
+<p class="text-right"><a href="" id="select-original">toggle</a> <a href="" id="select-translation">toggle</a></p>
+</div>
+</div>
+
 <div class="row">
 <div class="col-md-8 offset-md-2">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -27,12 +33,10 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php shenAleph_post_thumbnail(); ?>
 </div>
 </div>
 	<div class="entry-content row">
 		<div class="col-md-8 offset-md-2">
-			test translation
 		<?php
 		the_content( sprintf(
 			wp_kses(

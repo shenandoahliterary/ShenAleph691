@@ -138,6 +138,12 @@ function shenAleph_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	if ( has_tag('translation')) {
+		wp_enqueue_script('shenAleph-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array(), '20151215', true);
+	}
+
+
+
 }
 add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
 
@@ -233,7 +239,7 @@ function shenAleph_filter_authors(){
 
 
 /**
- * Custom post type to specify a 3-column grid for file_get_contents
+ *
  * [should put this in a plugin]
  */
 
