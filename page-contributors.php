@@ -20,30 +20,10 @@ get_header();
 			<section class="container page-contributors">
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
-					<h2>List of Contributors</h2>
+					<h2>Contributors</h2>
 					<dl>
 		<?php
-		if ( have_posts() ) :
-
-
-
-
-							/* Start the Loop */
-							while ( have_posts() ) :
-								the_post();
-								/*
-								 *
-								 *
-								 * Pulls content into TOC
-								 */
-							//	get_template_part( 'template-parts/content', 'toc' );
-							endwhile;
-						//	the_posts_navigation();
-						else :
-					//		get_template_part( 'template-parts/content', 'none' );
-						endif;
-
-
+		
 // Search WP User Database for authors
 
 						$args = array(
