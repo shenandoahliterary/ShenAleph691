@@ -162,9 +162,39 @@ function shenAleph_empty_email_error( $arg ) {
 }
 add_action( 'user_profile_update_errors', 'shenAleph_empty_email_error' );
 
-/**
+
+
+
+/******************************************
+* Paragraph spacing
+* add as action?
+* needs testing
+* need to provide option so not to adjust poetry
+*******************************************/
+function shenAleph_paragraph_spacing($text) {
+	$text = str_replace('<br>', '</p><p>', $text);
+	return $text;
+}
+
+add_filter('the_content', 'shenAleph_paragraph_spacing');
+
+
+
+/******************************************
+* Section Break -- replace text and insert glpyh
+*******************************************/
+function shenAleph_section_break($text) {
+	$text = str_replace('[SECTION BREAK]', '[HOWDY HOWDY]', $text);
+	return $text;
+}
+
+add_filter('the_content', 'shenAleph_section_break');
+
+
+
+/******************************************
 * Hanldes multiple authors per post
-*/
+*******************************************/
 function shenAleph_filter_authors(){
 	$custom_fields = get_post_custom();
 
@@ -198,16 +228,6 @@ function shenAleph_filter_authors(){
 
 					}
 			}
-			// query user database on lastname to get dsiplay_name for second author_name
-			// how to prioritize display of author names?
-
-
-
-
-
-
-
-
 
 }
 

@@ -19,12 +19,26 @@
 
 		<h3>Fiction</h3>
 		<div>
-			<?php 	$fiction_loop = new WP_Query('cat=4&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+			<?php
+			remove_all_filters('posts_orderby');
+			//$fiction_loop = new WP_Query('cat=4&orderby=meta_value_num&meta_key=TOC-order&order=asc&nopaging=true');
+			$fiction_args = array(
+				//'cat' => '4',
+				'category_name' => 'fiction',
+				'order' => 'ASC',
+				'meta_key' => 'TOC_order',
+				'orderby' => 'meta_value_num',
+			//	'orderby' => 'author',
+				'meta_type' => 'NUMERIC',
+				'nopaging' => 'true',
+
+			);
+			$fiction_loop = new WP_Query($fiction_args);
 					while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
 					 ?>
 					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
 
-						<span class="author_name"><?php the_author(); ?></span>
+						<span class="author_name"><?php the_author(); echo get_post_meta($post->ID, 'TOC_order', true); ?></span>
 
 				</p>
 			<?php endwhile;
@@ -151,8 +165,19 @@ wp_reset_postdata();
 </div> <!-- close column -->
 </div> <!-- close row -->
 
+
+<div class="row">
+	<div class="col-md-8 offset-md-2 single-space-paragraphs">
+<p><a href="">Editor's Note</a></p>
+<p><a href="">Masthead</a></p>
+<p><a href="">List of Contributors</a></p>
+
+
+	</div>
+</div>
 </section>
 
+<!--  Features section -->
 <section class="container TOC-quote">
 <div class="row">
 	<div class="col-md-8 offset-md-2 h-100">
