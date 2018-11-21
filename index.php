@@ -38,6 +38,9 @@ get_header();
 					 if ( has_tag('columns-3') ) :
 						 get_template_part( 'template-parts/content', 'col3' );
 
+					elseif (has_tag('translation') )  :
+							get_template_part( 'template-parts/content', 'translation' );
+
 					 else :
 
 					get_template_part( 'template-parts/content', get_post_type() );
