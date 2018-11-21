@@ -231,6 +231,15 @@ function shenAleph_filter_authors(){
 
 }
 
+
+/**
+ * Custom post type to specify a 3-column grid for file_get_contents
+ * [should put this in a plugin]
+ */
+
+
+
+
 /**
  * Increase the number of custom fields that appear in dropdown
  */

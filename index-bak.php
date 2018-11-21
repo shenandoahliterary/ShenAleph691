@@ -35,14 +35,8 @@ get_header();
 					 * If you want to override this in a child theme, then include a file
 					 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 					 */
-					 if ( has_tag('columns-3') ) :
-						 get_template_part( 'template-parts/content', 'col3' );
 
-					 else :
-
-					get_template_part( 'template-parts/content', get_post_type() );
-				endif;
-		  	endwhile;
+				endwhile;
 				the_posts_navigation();
 			else :
 				get_template_part( 'template-parts/content', 'none' );
