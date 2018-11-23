@@ -422,7 +422,8 @@ textarea {
 #typelogo {
 		font-family: "Theinhardt";
 		font-weight: 500;
-		font-size: 8.725rem;
+		/*font-size: 8.725rem;*/
+		font-size: 10.75rem;
 		text-transform: uppercase;
 		margin:0 0 -2rem 0;
 }
@@ -988,6 +989,12 @@ a:hover, a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+color: #444;
+line-height: 1.35;
+font-size: 1.2rem;
+
+
+
 }
 
 .page-links {
