@@ -443,6 +443,8 @@ textarea {
 	font-family: "Theinhardt";
 	font-weight: 500;
 	font-size: 48px;
+	margin-bottom: .25rem;
+	line-height: 0.9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -453,6 +455,23 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin-bottom: 1.5em;
+}
+
+.workAuthorByline {
+	font-family: "Theinhardt";
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+/* author name above bio at bottom of page */
+.workAuthor {
+margin-top: 2rem;
+margin-bottom: .5rem;
+}
+
+.workAuthorBio {
+line-height: 1.25rem;
+margin-bottom: 3rem;
 }
 
 dfn, cite, em, i {
@@ -521,11 +540,10 @@ body {
 .dropcaps {
      float:left;
      color: #464646;
-     font-size: 100px;
-     line-height: 75px;
-     padding-top: 2px;
-     padding-right: 8px;
-     padding-left: 3px;
+     font-size: 6.25rem;
+     line-height: 4.6875rem;
+     padding-right: 0;
+     padding-left: 0;
  }
 
 .article-content { margin-top: 0em;
@@ -553,9 +571,11 @@ body {
 	padding: 0;
 }
 
+
 .topbanner {
 	border-bottom: 2px solid #a37a75;
 }
+
 
 .volumeIssue {
 	background-color: #a37a75;
