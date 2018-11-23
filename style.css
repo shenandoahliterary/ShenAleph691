@@ -427,6 +427,13 @@ textarea {
 		margin:0 0 -2rem 0;
 }
 
+
+#translation-control-panel {
+	visibility: hidden;
+}
+
+
+
 .TOCsection {
 	margin-top: 4rem;
 }

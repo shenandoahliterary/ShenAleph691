@@ -1,6 +1,7 @@
 ( function($) {
 //$(document).ready(function () {
   console.log("in script");
+  $('#translation-control-panel').css('visibility', 'visible');
 
     $("#select-original").click(function (e) {
       e.preventDefault();
