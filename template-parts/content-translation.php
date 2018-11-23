@@ -10,7 +10,7 @@
 ?>
 <div class=""="row">
  <div class="col-md-8 offset-md-2">
-<p class="text-right"><a href="" id="select-original">toggle</a> <a href="" id="select-translation">toggle</a></p>
+<p class="text-right"><a href="#" id="select-original">view original</a> <a href="" id="select-translation">view translation</a></p>
 </div>
 </div>
 

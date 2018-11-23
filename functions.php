@@ -139,7 +139,7 @@ function shenAleph_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	if ( has_tag('translation')) {
-		wp_enqueue_script('shenAleph-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array(), '20151215', true);
+		wp_enqueue_script('shenAleph-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array('jquery'), 'null', true);
 	}
 
 

@@ -1,21 +1,24 @@
-( function() {
-$(document).ready(function () {
-    $("#saimon").click(function () {
-      $("#debate-holder").css('display', 'none');
-      if ($('#saimon-video').css('display') == 'none') {
-        $('#mugo-video').css('visibility', 'hidden');
-        $('#saimon-video').css('display', 'block');
+( function($) {
+//$(document).ready(function () {
+  console.log("in script");
 
-      }
+    $("#select-original").click(function (e) {
+      e.preventDefault();
+      console.log("original clicked");
+      $('#translation').hide('slow');
+    //  $('#translation').css('visibility', 'hidden');
+    //  $("#original").css('visibility', 'visible');
+    //  if ($('#original').css('display') == 'none') {
+      //  $('#mugo-video').css('visibility', 'hidden');
+      //  $('#original').css('display', 'block');
+    //  }
     });
-    $("#mugo").click(function () {
-        if ($('#mugo-video').css('visibility') == 'hidden') {
-          $("#debate-holder").css('display', 'none');
-                $('#saimon-video').css('display', 'none');
-                $('#mugo-video').css('visibility', 'visible');
+    $("#select-translation").click(function (f) {
+      f.preventDefault();
+      console.log("translation clicked");
+      $('#original').hide('slow');
+      $('#translation').show('slow');
 
-              }
-        else $('#message').css('visibility', 'hidden');
     });
-});
-} )();
+//});
+} )(jQuery);
