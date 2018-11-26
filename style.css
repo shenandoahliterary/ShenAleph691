@@ -407,11 +407,11 @@ textarea {
 	line-height: 1.5;
 }
 
+/*
 .custom-logo {
 	border-radius: 50%;
-
-
 }
+*/
 
 .typelogo-column {
 	margin-right: -3.75rem;
@@ -439,12 +439,16 @@ textarea {
 	margin-top: 4rem;
 }
 
+.entry-header {
+margin-top: 5.5rem;
+}
+
 .entry-title {
 	font-family: "Theinhardt";
 	font-weight: 500;
 	font-size: 48px;
 	margin-bottom: .25rem;
-	line-height: 0.9;
+	line-height: 1.1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -460,7 +464,7 @@ p {
 .workAuthorByline {
 	font-family: "Theinhardt";
 	font-weight: 500;
-	font-size: 1.25rem;
+	font-size: 2rem;
 }
 
 /* author name above bio at bottom of page */

@@ -1,6 +1,6 @@
 <?php
 /**
- *  
+ *
  *
  */
 ?>
@@ -15,7 +15,7 @@
 
 <section class="container TOCsection">
 <div class="row">
-	<div class="col-md-4 offset-md-2">
+	<div class="col-md-4 offset-md-1">
 
 		<h3>Fiction</h3>
 		<div>

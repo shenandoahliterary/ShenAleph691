@@ -34,7 +34,7 @@
 </div>
 </div>
 	<div class="entry-content row">
-		<div class="col-md-3 offset-md-2 text-justify">
+		<div class="col-md-4 offset-md-2 text-justify">
 		<?php
 		the_content( sprintf(
 			wp_kses(

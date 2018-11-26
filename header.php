@@ -27,6 +27,9 @@
 
 			<section class="topbanner container-fluid" id="typelogo-container">
 				<div class="row">
+					<?php	the_custom_logo(); ?>
+				</div>
+				<div class="row">
 		<div class="col-md-11">
 			<h1 class="text-right" id="typelogo">Shenandoah</h1>
 
