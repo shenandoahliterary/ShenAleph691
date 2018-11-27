@@ -6,7 +6,12 @@
 ?>
 <section class="container-fluid">
 <div class="row">
-<img  class="img-fluid" src="http://shendev-clone.local/wp-content/uploads/2018/11/cover68.3.jpg">
+	<?php
+$uploads = wp_upload_dir();
+$upload_path =  $uploads['baseurl'];
+/* need to set image in admin dashboard */
+	?>
+<img  class="img-fluid" src="<?php echo $upload_path ?>/2018/11/cover68.3.jpg">
 </div>
 <div class="row volumeIssue">
 <span class="mx-auto align-middle">Volume 68, Number 1 &middot; Fall 2018</span>
