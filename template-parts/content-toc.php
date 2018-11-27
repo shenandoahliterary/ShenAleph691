@@ -40,7 +40,7 @@ $upload_path =  $uploads['baseurl'];
 					 ?>
 					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
 
-						<span class="author_name"><?php the_author(); echo get_post_meta($post->ID, 'TOC_order', true); ?></span>
+						<span class="author_name"><?php the_author();  ?></span>
 
 				</p>
 			<?php endwhile;
