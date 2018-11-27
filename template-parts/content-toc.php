@@ -52,7 +52,7 @@ wp_reset_postdata();
 		<div>
 			<?php
 			remove_all_filters('posts_orderby');
-			$fiction_args = array(
+			$nonfiction_args = array(
 				'category_name' => 'nonfiction',
 				'order' => 'ASC',
 				'meta_key' => 'TOC_order',
@@ -61,7 +61,7 @@ wp_reset_postdata();
 				'nopaging' => 'true',
 
 			);
-			$nonfiction_loop = new  WP_Query($fiction_args);
+			$nonfiction_loop = new  WP_Query($nonfiction_args);
 					while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
 					 ?>
 					 <p>
@@ -77,7 +77,20 @@ wp_reset_postdata();
 
 		<h3>Translations</h3>
 		<div>
-			<?php $nonfiction_loop = new WP_Query('cat=5&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+			<?php
+			remove_all_filters('posts_orderby');
+			$translations_args = array(
+				'category_name' => 'translations',
+				'order' => 'ASC',
+				'meta_key' => 'TOC_order',
+				'orderby' => 'meta_value_num',
+				'meta_type' => 'NUMERIC',
+				'nopaging' => 'true',
+
+			);
+
+
+			$nonfiction_loop = new  WP_Query($translations_args);
 					while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
 					 ?>
 					 <p>
