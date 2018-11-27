@@ -125,7 +125,19 @@ wp_reset_postdata();
 		<h3>Poetry</h3>
 		<div>
 
-			<?php $poetry_loop = new WP_Query('cat=2&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+			<?php
+			remove_all_filters('posts_orderby');
+			$poetry_args = array(
+				'category_name' => 'poetry',
+				'order' => 'ASC',
+				'meta_key' => 'TOC_order',
+				'orderby' => 'meta_value_num',
+				'meta_type' => 'NUMERIC',
+				'nopaging' => 'true',
+
+			);
+
+			$poetry_loop = new WP_Query($poetry_args);
 				$authornames = array();
 
 					while ($poetry_loop->have_posts()) : $poetry_loop->the_post();
@@ -138,7 +150,7 @@ wp_reset_postdata();
 
 				foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
-				'cat' => '2',
+				'category_name' => 'poetry',
 				'author' => $author_id,
 				'orderby' => 'title',
 				'order' => 'asc',
@@ -170,7 +182,18 @@ wp_reset_postdata();
 
 		<h3>Interviews</h3>
 							<div>
-								<?php 	$reviews_loop = new WP_Query('cat=6&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+								<?php
+								remove_all_filters('posts_orderby');
+								$interview_args = array(
+									'category_name' => 'interviews',
+									'order' => 'ASC',
+									'meta_key' => 'TOC_order',
+									'orderby' => 'meta_value_num',
+									'meta_type' => 'NUMERIC',
+									'nopaging' => 'true',
+
+								);
+									$reviews_loop = new WP_Query($interview_args);
 										while ($reviews_loop->have_posts()) : $reviews_loop->the_post();
 										 ?>
 										 <p>
