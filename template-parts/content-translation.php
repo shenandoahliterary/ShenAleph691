@@ -60,7 +60,7 @@
 	</div><!-- .entry-content -->
 <!-- author bio -->
 <section>
-	<p class="workAuthor"><?php the_author_meta('display_name') ?></p>
+	<hr>
 	<p class="workAuthorBio"><?php the_author_meta('description') ?></p>
 
 </section>
