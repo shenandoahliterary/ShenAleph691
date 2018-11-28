@@ -23,7 +23,7 @@ get_header();
 					<h2>Contributors</h2>
 					<dl>
 		<?php
-		
+
 // Search WP User Database for authors
 
 						$args = array(
@@ -36,8 +36,7 @@ get_header();
 						// User Loop
 						if ( ! empty( $user_query->get_results() ) ) {
 							foreach ( $user_query->get_results() as $user ) {
-								echo '<dt>' . $user->display_name . '</dt>';
-								echo '<dd>' . $user->description . '</dd>';
+								echo '<p class="contributor-page-bio">' . $user->description . '</p>';
 							}
 						} else {
 							echo 'No users found.';
