@@ -35,7 +35,7 @@
 
 				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
 					<a class="nav-item nav-link" href="#">About</a>
-					<a class="nav-item nav-link" href="#">Archives</a>
+					<a class="nav-item nav-link" href="#">Issues</a>
 					<a class="nav-item nav-link" href="#">Submit</a>
 				</div>
 				</div>
