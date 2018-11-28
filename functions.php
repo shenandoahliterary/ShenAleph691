@@ -190,7 +190,7 @@ add_filter('the_content', 'shenAleph_paragraph_spacing');
 * Section Break -- replace text and insert glpyh
 *******************************************/
 function shenAleph_section_break($text) {
-	$text = str_replace('[SECTION BREAK]', '[HOWDY HOWDY]', $text);
+	$text = str_replace("[SECTION BREAK]", "<img src='/wp-content/themes/shenAleph/mountain-glyph.png' class='section-break'>", $text);
 	return $text;
 }
 
@@ -199,7 +199,7 @@ add_filter('the_content', 'shenAleph_section_break');
 
 
 /******************************************
-* Hanldes multiple authors per post
+* Handles multiple authors per post
 *******************************************/
 function shenAleph_filter_authors(){
 	$custom_fields = get_post_custom();
