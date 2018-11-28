@@ -556,6 +556,11 @@ body {
  .section-break {
  }
 
+ .clear-section-break {
+	 margin-top: 3rem;
+	 margin-bottom: 3rem;
+ }
+
 .article-content { margin-top: 0em;
      margin-bottom: 0;
      text-indent: 1.4em;
