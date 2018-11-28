@@ -36,7 +36,7 @@ get_header();
 						// User Loop
 						if ( ! empty( $user_query->get_results() ) ) {
 							foreach ( $user_query->get_results() as $user ) {
-								echo '<p class="contributor-page-bio">' . $user->description . '</p>';
+								echo '<p class="contributor-page-bio text-justify">' . $user->description . '</p>';
 							}
 						} else {
 							echo 'No users found.';
