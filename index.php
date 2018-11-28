@@ -39,7 +39,6 @@ get_header();
 					 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 					 */
 					 if ( has_tag('columns-3') ) :
-						 echo 'columns 3'; /* testing */
 						 get_template_part( 'template-parts/content', 'col3' );
 
 					elseif (has_tag('translation') )  :
