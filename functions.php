@@ -196,7 +196,15 @@ function shenAleph_section_break($text) {
 
 add_filter('the_content', 'shenAleph_section_break');
 
+/******************************************
+* Clear Section Break -- for breaks that need space but not glyph
+*******************************************/
+function shenAleph_clear_section_break($text) {
+	$text = str_replace("[CLEAR SECTION BREAK]", "<p class='clear-section-break'></p>", $text);
+	return $text;
+}
 
+add_filter('the_content', 'shenAleph_clear_section_break');
 
 /******************************************
 * Handles multiple authors per post
