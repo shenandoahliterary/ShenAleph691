@@ -207,8 +207,9 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 					<?php
 					$i++;
 				endwhile;
+				?>
 				<span class="author_name"><?php the_author(); ?> </span>
-
+<?php
 				wp_reset_postdata();
 				}
 				?>
