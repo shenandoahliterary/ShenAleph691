@@ -558,6 +558,13 @@ body {
 	 margin-bottom: 1.5rem;
  }
 
+
+
+ p.text-center.p-section-break + p + p {
+	 text-indent: 0;
+
+ }
+
  .clear-section-break {
 	 margin-top: 5rem;
 	 margin-bottom: 5rem;
