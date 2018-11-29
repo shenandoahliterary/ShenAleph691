@@ -150,7 +150,7 @@ wp_reset_postdata();
 <a href="<?php the_permalink(); ?>">
 <?php the_title(); ?>
 </a><br />
-<span class="author_name">x<?php the_author(); ?> </span>
+<span class="author_name"><?php the_author(); ?> </span>
 </p>
 
 <?php
@@ -168,7 +168,7 @@ wp_reset_postdata();
 				?>
 				<?php
 				$poetry_loop_single = new WP_Query($args);
-
+				
 				$i = 0;
 					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
 					// prints all works but prints 1st work twice.
