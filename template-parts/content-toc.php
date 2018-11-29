@@ -144,7 +144,16 @@ wp_reset_postdata();
 						$this_author= get_post_meta($post->ID, 'author_lastname', true);
 						$this_author_id =get_the_author_meta('ID');
 						$authornames[$this_author_id] = $this_author;
+//debugging
+?>
+<p>
+<a href="<?php the_permalink(); ?>">
+<?php the_title(); ?>
+</a><br />
+<span class="author_name"><?php the_author(); ?> </span>
+</p>
 
+<?php
 					endwhile;
 
 
@@ -164,7 +173,10 @@ wp_reset_postdata();
 				//$numItems = count($poetry_loop_single);
 				$i = 0;
 					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
+					// prints all works but prints 1st work twice.
+					//for each author, print title, title, author
 					?>
+
 					<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
 					<span class="author_name"><?php the_author(); ?> </span></p>
 
