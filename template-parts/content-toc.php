@@ -156,12 +156,6 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 
 //print statement of title and author just below worked but put each work and author separately
 ?>
-<p>
-<a href="<?php the_permalink(); ?>">
-<?php the_title(); ?>
-</a><br />
-<span class="author_name"><?php the_author(); ?> </span>
-</p>
 
 <?php
 					endwhile;
@@ -188,7 +182,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 					?>
 					<p>
 					<a href="<?php the_permalink(); ?>">
-					y<?php the_title(); ?>
+				<?php the_title(); ?>
 					</a><br />
 
 
