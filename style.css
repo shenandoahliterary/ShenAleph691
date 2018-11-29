@@ -570,6 +570,10 @@ body {
 }
 
 
+.category-fiction .entry-content p:first-of-type {
+	text-indent: 0;
+}
+
 .article-content { margin-top: 0em;
      margin-bottom: 0;
      text-indent: 1.4em;
