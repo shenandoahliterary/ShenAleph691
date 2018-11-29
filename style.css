@@ -571,6 +571,12 @@ body {
 	 margin-bottom: 2.5rem !important;
  }
 
+ .stanza-break {
+ 	margin-top: 1.5rem !important;
+ 	margin-bottom: 1.5rem !important;
+ }
+
+
 .category-fiction .entry-content p {
 	margin-top: 0em;
 	margin-bottom: 0;
