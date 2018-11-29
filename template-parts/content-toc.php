@@ -144,13 +144,8 @@ wp_reset_postdata();
 						$this_author= get_post_meta($post->ID, 'author_lastname', true);
 						$this_author_id =get_the_author_meta('ID');
 						$authornames[$this_author_id] = $this_author;
-//debugging
-//put titles in array
-//count number of titles in array
-//for each item in array, print title
-//print author
-//OR...wp function to display posts by same author
 
+//needs refactoring
 
 foreach ($authornames as $author_id=>$author_lastname) { ?>
 
@@ -159,7 +154,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 <?php }
 
 
-
+//print statement of title and author just below worked but put each work and author separately
 ?>
 <p>
 <a href="<?php the_permalink(); ?>">
@@ -191,6 +186,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 					// prints all works but prints 1st work twice.
 					//for each author, print title, title, author
 					?>
+					<p>
 					<a href="<?php the_permalink(); ?>">
 					y<?php the_title(); ?>
 					</a><br />
@@ -209,6 +205,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 				endwhile;
 				?>
 				<span class="author_name"><?php the_author(); ?> </span>
+			</p>
 <?php
 				wp_reset_postdata();
 				}
