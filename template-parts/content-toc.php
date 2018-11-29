@@ -164,11 +164,18 @@ wp_reset_postdata();
 				//$numItems = count($poetry_loop_single);
 				$i = 0;
 					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
+					?>
+					<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
+					<span class="author_name"><?php the_author(); ?> </span></p>
+
+
+					<?php
 					if ($i == 0) { ?>
 
 						<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
-						<span class="author_name"><?php the_author(); ?> </span></p><?php }
-						?>
+						<span class="author_name"><?php the_author(); ?> </span></p>
+
+						<?php } ?>
 
 					<?php
 					$i++;
