@@ -145,17 +145,28 @@ wp_reset_postdata();
 						$this_author_id =get_the_author_meta('ID');
 						$authornames[$this_author_id] = $this_author;
 //debugging
+
+foreach ($authornames as $author_id=>$author_lastname) { ?>
+
+	<p>
+	<a href="<?php the_permalink(); ?>">
+	<?php the_title(); ?>
+	</a><br />
+
+<?php }
+
+
+
 ?>
-<p>
-<a href="<?php the_permalink(); ?>">
-<?php the_title(); ?>
-</a><br />
+
 <span class="author_name"><?php the_author(); ?> </span>
 </p>
 
 <?php
 					endwhile;
 
+
+//ignore below
 
 				foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
@@ -181,7 +192,7 @@ wp_reset_postdata();
 					<?php
 					if ($i == 0) { ?>
 
-					 
+
 
 						<?php } ?>
 
