@@ -148,17 +148,17 @@ wp_reset_postdata();
 
 foreach ($authornames as $author_id=>$author_lastname) { ?>
 
-	<p>
-	<a href="<?php the_permalink(); ?>">
-	<?php the_title(); ?>
-	</a><br />
+
 
 <?php }
 
 
 
 ?>
-
+<p>
+<a href="<?php the_permalink(); ?>">
+<?php the_title(); ?>
+</a><br />
 <span class="author_name"><?php the_author(); ?> </span>
 </p>
 
