@@ -150,7 +150,7 @@ wp_reset_postdata();
 <a href="<?php the_permalink(); ?>">
 <?php the_title(); ?>
 </a><br />
-<span class="author_name">x<?php the_author(); ?> </span>
+<span class="author_name"><?php the_author(); ?> </span>
 </p>
 
 <?php
@@ -175,15 +175,13 @@ wp_reset_postdata();
 					//for each author, print title, title, author
 					?>
 
-					<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
-					<span class="author_name"><?php the_author(); ?> </span></p>
+
 
 
 					<?php
 					if ($i == 0) { ?>
 
-						<p><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
-						<span class="author_name"><?php the_author(); ?> </span></p>
+					 
 
 						<?php } ?>
 
