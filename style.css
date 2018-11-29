@@ -652,6 +652,14 @@ body {
 	font-weight: 300;
 }
 
+.volumeIssueBanner {
+	color: #df6348;
+	font-family: "Theinhardt";
+	font-weight: 300;
+	font-size: 1.125em;
+	line-height: 2.25em;
+}
+
 
 
 .TOCsection h3 {
