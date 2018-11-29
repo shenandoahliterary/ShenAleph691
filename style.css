@@ -607,6 +607,11 @@ body {
 	margin-bottom: 0;
 }
 
+#translation p {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
 
 .article-content { margin-top: 0em;
      margin-bottom: 0;
