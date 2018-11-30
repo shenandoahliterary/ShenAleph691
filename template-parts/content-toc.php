@@ -14,7 +14,6 @@ $upload_path =  $uploads['baseurl'];
 <img  class="img-fluid" src="<?php echo $upload_path ?>/2018/11/cover68.3.jpg">
 </div>
 <div class="row volumeIssue">
-<span class="mx-auto align-middle">Volume 68, Number 1 &middot; Fall 2018</span>
 </div>
 </section>
 

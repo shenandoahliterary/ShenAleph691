@@ -15,7 +15,6 @@
 get_header();
 ?>
 <div class="row volumeIssue">
-<span class="mx-auto align-middle">Volume 68, Number 1 &middot; Fall 2018</span>
 </div>
 </section>
 	<div id="primary" class="content-area">
