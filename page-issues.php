@@ -34,13 +34,12 @@
 </div>
 </div>
 <div class="row">
-	<div class="col-md-5">
+	<div class="col-md-5 offset-md-1">
 		<div class="volumeIssueBanner">
 		<span class="">Volume 68, Number 1 &middot; Fall 2018</span>
 		</div>
-	</div>
-
-<div class="col-md-5">
+</div>
+	<div class="col-md-5">
 				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
 					<a class="nav-item nav-link" href="#">About</a>
 					<a class="nav-item nav-link" href="#">Issues</a>

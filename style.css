@@ -426,7 +426,7 @@ textarea {
 		/*font-size: 8.725rem;*/
 		font-size: 10.75rem;
 		text-transform: uppercase;
-		margin:0 0 -2rem 0;
+		margin:0 0 -3rem 0;
 }
 
 
@@ -576,7 +576,7 @@ body {
  }
 
  .stanza-break {
- 	margin-top: 0.25rem !important;
+ 	margin-top: 1.25rem !important;
  	margin-bottom: 0.25rem !important;
  }
 
@@ -664,11 +664,12 @@ body {
 }
 
 .volumeIssueBanner {
-	color: #df6348;
+	color: #8c8c88;
 	font-family: "Theinhardt";
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 1.125em;
 	line-height: 2.25em;
+	padding-top: .5rem;
 }
 
 
@@ -869,7 +870,7 @@ a:hover, a:active {
 	font-size: 1.125em;
 	line-height: 2.25em;
 	font-family: "Theinhardt";
-	font-weight: 300;
+	font-weight: 500;
 	text-transform: uppercase;
 	color: #df6348;
 }
