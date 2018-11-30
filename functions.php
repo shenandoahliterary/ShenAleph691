@@ -126,7 +126,7 @@ function shenAleph_scripts() {
 	wp_enqueue_style( 'shenAleph', get_stylesheet_uri() );
 
   wp_enqueue_style('font', get_template_directory_uri().'/thein/Theinhardt-Medium.css');
-	wp_enqueue_style('font-light', get_template_directory_uri().'/thein/Theinhardt-light.css');
+	wp_enqueue_style('font-light', get_template_directory_uri().'/thein/Theinhardt-Light.css');
 
 
 

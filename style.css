@@ -466,8 +466,8 @@ p {
 }
 
 .workAuthorByline {
-	font-family: "Theinhardt";
-	font-weight: 500;
+	font-family: "Theinhardt-Light";
+	font-weight: normal;
 	font-size: 2rem;
 }
 
