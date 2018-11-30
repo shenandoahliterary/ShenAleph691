@@ -191,7 +191,7 @@ add_filter('the_content', 'shenAleph_paragraph_spacing');
 * Section Break -- replace text and insert glpyh
 *******************************************/
 function shenAleph_section_break($text) {
-	$text = str_replace("[SECTION BREAK]", "<p class='text-center p-section-break'>&loz;&loz;&loz;</p>", $text);
+	$text = str_replace("[SECTION BREAK]", "<p class='text-center p-section-break'>&#9652;&#9652;&#9652;</p>", $text);
 	return $text;
 }
 
