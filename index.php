@@ -40,8 +40,13 @@ get_header();
 					 if ( has_tag('columns-3') ) :
 						 get_template_part( 'template-parts/content', 'col3' );
 
+					 elseif (has_tag('erasure') )  :
+	 									get_template_part( 'template-parts/content', 'erasure' );
+
 					elseif (has_tag('translation') )  :
 							get_template_part( 'template-parts/content', 'translation' );
+
+				  
 
 					 else :
 
