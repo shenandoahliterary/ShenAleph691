@@ -9,8 +9,8 @@
 
 ?>
 <div class=""="row">
- <div id="translation-control-panel" class="col-md-10 offset-md-2">
-<p class="text-right"><a href="#" id="select-original">view original</a> <a href="" id="select-translation">view translation</a> <a href="#" id="select-sidebyside">view side-by-side</a></p>
+ <div id="erasure-control-panel" class="col-md-10 offset-md-2">
+<p class="text-right"><a href="#" id="select-erased">view original</a> <a href="" id="select-unerased">show unerased text</a> </p>
 </div>
 </div>
 

@@ -142,7 +142,9 @@ function shenAleph_scripts() {
 	if ( has_tag('translation')) {
 		wp_enqueue_script('shenAleph-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array('jquery'), 'null', true);
 	}
-
+	if ( has_tag('erasure')) {
+		wp_enqueue_script('shenAleph-toggle-erasure', get_template_directory_uri() . '/js/toggle-erasure.js', array('jquery'), 'null', true);
+	}
 
 
 }
