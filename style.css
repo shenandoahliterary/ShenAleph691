@@ -432,6 +432,7 @@ textarea {
 
 .smallcaps {
 	font-variant: small-caps;
+	font-variant-caps: small-caps;
 }
 
 #translation-control-panel {
