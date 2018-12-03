@@ -634,7 +634,7 @@ section.workAuthorBio a {
 .contributor-page-bio strong {
 	color: #df6348;
 }
-.contributor-page-bio strong a{
+.contributor-page-bio a{
 	text-decoration: underline;
 	text-decoration-style: dotted;
 }
