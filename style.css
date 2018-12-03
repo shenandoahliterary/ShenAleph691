@@ -608,6 +608,10 @@ body {
 	text-indent: 0;
 }
 
+.category-poetry .workAuthorByline {
+margin-bottom: 2rem;
+}
+
 .category-poetry .entry-content p {
 	margin-top: 0em;
 	margin-bottom: 0;
