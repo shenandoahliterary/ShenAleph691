@@ -626,6 +626,11 @@ section.workAuthorBio strong {
 	color: #df6348;
 }
 
+section.workAuthorBio a {
+	text-decoration-style: dotted;
+}
+
+
 #original p {
 	margin-top: 0em;
 	margin-bottom: 0;
