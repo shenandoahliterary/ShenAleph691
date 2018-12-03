@@ -27,7 +27,9 @@ get_header();
 // Search WP User Database for authors
 
 						$args = array(
-							'role' => 'Contributor'
+							'role' => 'Contributor',
+							'meta_key' => 'last_name',
+							'orderby'  => 'meta_value'
 						);
 
 						// The Query
