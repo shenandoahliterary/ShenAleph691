@@ -627,6 +627,7 @@ section.workAuthorBio strong {
 }
 
 section.workAuthorBio a {
+	text-decoration: underline;
 	text-decoration-style: dotted;
 }
 
