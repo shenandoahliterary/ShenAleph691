@@ -430,6 +430,9 @@ textarea {
 		margin:0 0 -3rem 0;
 }
 
+.small-caps {
+	font-variant: small-caps;
+}
 
 #translation-control-panel {
 }
