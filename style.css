@@ -622,6 +622,10 @@ margin-bottom: 2rem;
 	margin-bottom: 0;
 }
 
+section.workAuthorBio strong {
+	color: #df6348;
+}
+
 #original p {
 	margin-top: 0em;
 	margin-bottom: 0;
