@@ -11,7 +11,7 @@ $uploads = wp_upload_dir();
 $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard */
 	?>
-<img  class="img-fluid" src="<?php echo $upload_path ?>/2018/11/cover68.3.jpg">
+<img  class="img-fluid" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
