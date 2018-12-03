@@ -54,11 +54,9 @@
 		?>
 	</div><!-- .entry-content -->
 <!-- author bio -->
-<section>
 	<hr>
-	<p class="workAuthorBio"><?php the_author_meta('description') ?></p>
+	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 
-</section>
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
