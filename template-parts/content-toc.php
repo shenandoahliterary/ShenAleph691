@@ -248,7 +248,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 
 <div class="row">
 	<div class="col-md-8 offset-md-2 single-space-paragraphs">
-<p><a href="">Editor&rsquo;s Note</a></p>
+<p><a href="https://shenandoahliterary.org/681/editors-note/">Editor&rsquo;s Note</a></p>
 <p><a href="">Masthead</a></p>
 <p><a href="https://shenandoahliterary.org/681/contributors/">List of Contributors</a></p>
 
