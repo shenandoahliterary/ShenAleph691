@@ -647,6 +647,14 @@ section.workAuthorBio a {
 	margin-bottom: 4rem;
 }
 
+#soliloquy-prev {
+	left: -2rem !important;
+}
+#soliloquy-next {
+	right: -2rem !important;
+}
+
+
 #original p {
 	margin-top: 0em;
 	margin-bottom: 0;
