@@ -145,7 +145,10 @@ function shenAleph_scripts() {
 	if ( has_tag('erasure')) {
 		wp_enqueue_script('shenAleph-toggle-erasure', get_template_directory_uri() . '/js/toggle-erasure.js', array('jquery'), 'null', true);
 	}
-
+	if ( has_tag('slippry')) {
+		wp_enqueue_script('shenAleph-slippry-slider', get_template_directory_uri() . '/js/slippry.min.js', array('jquery'), 'null', true);
+		wp_enqueue_style('slippry_css', get_template_directory_uri() . '/js/slippry.css');
+	}
 
 }
 add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
