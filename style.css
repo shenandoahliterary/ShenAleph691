@@ -552,14 +552,7 @@ body {
 	/* Fallback for when there is no custom background color defined. */
 }
 
-.dropcaps {
-     float:left;
-     color: #464646;
-     font-size: 6.25rem; /* was 6.25 */
-     line-height: 5.1875rem; /* was 4.6875 */
-     padding-right: 0;
-     padding-left: 0;
- }
+
 
  .section-break {
 	 margin-top: 1.5rem;
@@ -631,6 +624,15 @@ margin-bottom: 2rem;
 	text-indent: 1.4em;
 	line-height: 1.4 !important;
 }
+
+.dropcaps {
+     float:left;
+     color: #464646;
+     font-size: 6.25rem; /* was 6.25 */
+     line-height: 5.1875rem; /* was 4.6875 */
+     padding-right: 0;
+     padding-left: 0;
+ }
 
 section.workAuthorBio strong {
 	color: #df6348;
