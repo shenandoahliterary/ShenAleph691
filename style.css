@@ -647,10 +647,10 @@ section.workAuthorBio a {
 	margin-bottom: 4rem;
 }
 
-#soliloquy-prev {
+.soliloquy-prev {
 	left: -2rem !important;
 }
-#soliloquy-next {
+.soliloquy-next {
 	right: -2rem !important;
 }
 
