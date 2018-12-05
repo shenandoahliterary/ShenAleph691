@@ -111,7 +111,7 @@ wp_reset_postdata();
 											<p>
 												<a href="<?php the_permalink(); ?>">
 				    						<?php the_title(); ?>
-				    						</a>
+											</a><br />
 			    						<span class="author_name"><?php the_author(); ?> </span><br />
 										</p>
 			    				<?php endwhile;
