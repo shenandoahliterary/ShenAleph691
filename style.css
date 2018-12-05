@@ -641,6 +641,12 @@ section.workAuthorBio a {
 	text-decoration: underline;
 }
 
+.prefaceAuthor {
+	text-align: right;
+	margin-top: -1.5rem;
+	margin-bottom: 2rem;
+}
+
 #original p {
 	margin-top: 0em;
 	margin-bottom: 0;
