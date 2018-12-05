@@ -639,7 +639,6 @@ section.workAuthorBio a {
 }
 .contributor-page-bio a:link, a:visited {
 	text-decoration: underline;
-	text-decoration-style: dotted;
 }
 
 #original p {
