@@ -775,14 +775,14 @@ img {
 }
 
 figure {
-	margin: 2em 0;
+	margin-top: 2em
+
 	/* Extra wide images within figure tags don't overflow the content area. */
 
 }
 
 figcaption {
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: 1rem;
 }
 
 table {
