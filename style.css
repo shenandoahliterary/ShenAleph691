@@ -771,11 +771,13 @@ img {
 	/* Make sure images are scaled correctly. */
 	max-width: 100%;
 	/* Adhere to container width. */
+	border: 1px #464646 solid;
 }
 
 figure {
-	margin: 1em 0;
+	margin: 2em 0;
 	/* Extra wide images within figure tags don't overflow the content area. */
+
 }
 
 table {
