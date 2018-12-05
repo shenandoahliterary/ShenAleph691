@@ -649,11 +649,11 @@ section.workAuthorBio a {
 
 .soliloquy-prev {
 	left: -2rem !important;
-	background-color: rgba(255, 0, 0, 0.05) !important;
+	background-color: rgba(0, 0, 0, 0.05) !important;
 }
 .soliloquy-next {
 	right: -2rem !important;
-	background-color: rgba(255, 0, 0, 0.05) !important;
+	background-color: rgba(0, 0, 0, 0.05) !important;
 }
 
 
