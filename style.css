@@ -771,7 +771,6 @@ img {
 	/* Make sure images are scaled correctly. */
 	max-width: 100%;
 	/* Adhere to container width. */
-	border: 1px #464646 solid;
 }
 
 figure {
