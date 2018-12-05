@@ -436,6 +436,7 @@ textarea {
 }
 
 #translation-control-panel {
+	visibility: hidden;
 }
 
 
