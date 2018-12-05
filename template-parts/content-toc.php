@@ -108,10 +108,12 @@ wp_reset_postdata();
 			    				<?php 	$visualarts_loop = new WP_Query('cat=7&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
 			    						while ($visualarts_loop->have_posts()) : $visualarts_loop->the_post();
 			    						 ?>
+											<p>
+												<a href="<?php the_permalink(); ?>">
+				    						<?php the_title(); ?>
+				    						</a>
 			    						<span class="author_name"><?php the_author(); ?> </span><br />
-			    						<a href="<?php the_permalink(); ?>">
-			    						<?php the_title(); ?>
-			    						</a>
+										</p>
 			    				<?php endwhile;
 wp_reset_postdata();
 
