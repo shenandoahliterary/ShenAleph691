@@ -244,7 +244,7 @@ function shenAleph_filter_authors(){
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
 									 );
-			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
+				echo '<pre>'; print_r($args_authors); echo '</pre>';
 					$author_loop = new WP_User_Query($args_authors);
 					$author_names = $author_loop->get_results();
 
