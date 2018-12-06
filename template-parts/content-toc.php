@@ -231,9 +231,9 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 										 <a href="<?php the_permalink(); ?>">
 										<?php the_title(); ?>
 										</a><br />
+										<span class="author_name"><?php the_author(); ?> </span>
 										<?php shenAleph_filter_authors(); ?>
 
-										<span class="author_name"><?php the_author(); ?> </span>
 									</p>
 								<?php endwhile;
 	wp_reset_postdata();
