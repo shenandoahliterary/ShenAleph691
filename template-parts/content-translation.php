@@ -86,8 +86,10 @@ $my_custom_field = $custom_fields['translator_lastname'];
         if (! empty($author_names)) {
 
           foreach ($author_names as $author_name) {
-
-            echo "$author_name->description <br />";
+?>
+<section class="workAuthorBio">
+<?php 
+            echo "$author_name->description </section>";
           }
         }
           else {echo "No authors found";}
