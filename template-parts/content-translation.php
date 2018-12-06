@@ -35,7 +35,7 @@
 
 </div>
 </div>
-	<div class="entry-content row">
+	<div class="entry-content translatedWork row">
 		<div class="col-md-8 offset-md-2">
 		<?php
 		the_content( sprintf(
