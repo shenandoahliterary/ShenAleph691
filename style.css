@@ -629,6 +629,10 @@ margin-bottom: 2rem;
 	margin-top: 7rem;
 }
 
+.translatorByline {
+	margin-bottom: 1.5rem;
+}
+
 .dropcaps {
 			box-sizing: content-box;
      float:left;
