@@ -708,6 +708,9 @@ section.workAuthorBio a {
 	background-color: rgba(0, 0, 0, 0.05) !important;
 }
 
+.tag-translated-poetry p {
+	text-indent: 0!important;
+}
 
 #original p {
 	margin-top: 0em;
