@@ -717,6 +717,8 @@ section.workAuthorBio a {
 
 .tag-translated-poetry p {
 	text-indent: 0 !important;
+	margin-top:0;
+	margin-bottom: 0;
 }
 
 .translatorBio {
