@@ -75,14 +75,11 @@ echo ">>$my_custom_field[1]";
 
 
       $args_authors = array(
-                 // 'user_login'   => 'lillywimberly'
-                 //order alphabetically by last name?
+
                    'meta_key' => "last_name",
-                   //'meta_value' => "$my_custom_field[1]",
                    'meta_value' => "$value",
                    'meta_compare' => 'LIKE'
                  );
-    //	echo '<pre>'; print_r($args_authors); echo '</pre>';
         $author_loop = new WP_User_Query($args_authors);
         $author_names = $author_loop->get_results();
 
