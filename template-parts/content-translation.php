@@ -26,9 +26,9 @@
 			?>
 			<div class="entry-meta">
 				<!-- add byline -->
-				<p class="workAuthorByline"><?php
+				<div class="workAuthorByline"><?php
  				shenAleph_filter_authors();
- 			 the_author_meta('display_name') ?></p>
+ 			 the_author_meta('display_name') ?></div>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
