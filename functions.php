@@ -239,7 +239,8 @@ function shenAleph_filter_authors(){
 									 //order alphabetically by last name?
 										 'meta_key' => "last_name",
 										 'meta_value' => "$my_custom_field[1]",
-										 'meta_compare' => 'LIKE'
+										 'meta_compare' => 'LIKE',
+										 'order' => 'ASC'
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
 					$author_loop = new WP_User_Query($args_authors);
