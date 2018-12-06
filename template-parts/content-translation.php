@@ -87,8 +87,8 @@ $my_custom_field = $custom_fields['translator_lastname'];
 
           foreach ($author_names as $author_name) {
 ?>
-<section class="workAuthorBio">
-<?php 
+<section class="workAuthorBio translatorBio">
+<?php
             echo "$author_name->description </section>";
           }
         }

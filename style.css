@@ -712,6 +712,10 @@ section.workAuthorBio a {
 	text-indent: 0!important;
 }
 
+.translatorBio {
+	margin-top: -1rem;
+}
+
 #original p {
 	margin-top: 0em;
 	margin-bottom: 0;
