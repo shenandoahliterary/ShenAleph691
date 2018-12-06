@@ -33,8 +33,10 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-
-	<div class="entry-content">
+</div>
+</div>
+	<div class="entry-content row">
+		<div class="col-md-8 offset-md-2">
 		<?php
 		the_content( sprintf(
 			wp_kses(
