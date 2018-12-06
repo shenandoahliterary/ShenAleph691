@@ -9,7 +9,7 @@
       e.preventDefault();
       console.log("original clicked");
       $('#erased').hide('slow');
-      $('#unerased').hide('slow');
+      $('#unerased').visible('slow');
 
     //  $('#translation').css('visibility', 'hidden');
     //  $("#original").css('visibility', 'visible');
