@@ -228,18 +228,17 @@ function shenAleph_filter_authors(){
 
 	$my_custom_field = $custom_fields['author_lastname'];
 	//echo "$my_custom_field[1]";
-	if ($key > 0) {
 
 		foreach ( $my_custom_field as $key => $value ) {
 			echo $key . " => " . $value . "<br />";
 
+			if ($key > 0) {
 
 				$args_authors = array(
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
-										 //'meta_value' => "$my_custom_field[1]",
-										 'meta_value' => "$my_custom_field[$value]",
+										 'meta_value' => "$my_custom_field[1]",
 										 'meta_compare' => 'LIKE',
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
