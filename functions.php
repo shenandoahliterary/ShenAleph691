@@ -240,6 +240,7 @@ function shenAleph_filter_authors(){
 										 'meta_key' => "last_name",
 										 'meta_value' => "$my_custom_field[1]",
 										 'meta_compare' => 'LIKE',
+										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
