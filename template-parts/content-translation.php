@@ -56,7 +56,7 @@
 			'after'  => '</div>',
 		) );
 		?>
-	<!-- </div> removed extra div that was causing bio to be too wide.  -->
+	</div> 
 	</div><!-- .entry-content -->
 <!-- author bio -->
 <section>
