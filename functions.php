@@ -237,7 +237,8 @@ function shenAleph_filter_authors(){
 				$args_authors = array(
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
-										 'meta_value' => "$my_custom_field[1]",
+										 //retrieve specific value b
+										 //'meta_value' => "$my_custom_field[1]",
 										 'meta_compare' => 'LIKE',
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
