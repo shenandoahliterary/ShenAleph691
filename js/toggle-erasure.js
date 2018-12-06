@@ -2,8 +2,8 @@
 //$(document).ready(function () {
   console.log("in script");
   $('#translation-control-panel').css('visibility', 'visible');
-  $('#unerased').css('visibility', 'visible');
-  $('#erased').css('visibility', 'hidden');
+  $('#unerased').css('visibility', 'hidden');
+  $('#erased').css('visibility', 'visible');
 
     $("#select-unerased").click(function (e) {
       e.preventDefault();
