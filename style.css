@@ -667,7 +667,6 @@ margin-bottom: 2rem;
 
 .clearIndent + p {
 	text-indent: 0!important;
-	height: 0;
 }
 
 .footnotes {
