@@ -230,7 +230,7 @@ function shenAleph_filter_authors(){
 	//echo "$my_custom_field[1]";
 
 		foreach ( $my_custom_field as $key => $value ) {
-		//	echo $key . " => " . $value . "<br />";
+			echo $key . " => " . $value . "<br />";
 
 			if ($key > 0) {
 
