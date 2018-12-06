@@ -68,7 +68,7 @@
 $custom_fields = get_post_custom();
 
 $my_custom_field = $custom_fields['translator_lastname'];
-echo ">>$my_custom_field[1]";
+//echo ">>$my_custom_field[1]";
 
   foreach ( $my_custom_field as $key => $value ) {
   	echo $key . " => " . $value . "<br />";
