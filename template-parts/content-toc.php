@@ -96,7 +96,13 @@ wp_reset_postdata();
 					 <a href="<?php the_permalink(); ?>">
 					<?php the_title(); ?>
 					</a><br />
-					<span class="author_name"><?php the_author(); ?> </span>
+					<span class="author_name"><?php the_author(); ?> </span><br />
+					<?php
+					$custom_fields = get_post_custom();
+
+					$my_custom_field = $custom_fields['translator_byline'];
+					echo ">$my_custom_field";
+					?>
 	</p>
 			<?php endwhile;
 	wp_reset_postdata();
