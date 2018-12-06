@@ -25,8 +25,10 @@
 				<!-- add byline -->
 				<p class="workAuthorByline"><?php
 /* should add to filter: if filter is empty then only the_author_meta; if filter is not empty, then all authors from filter */
- 				shenAleph_filter_authors();
-			 the_author_meta('display_name') ?></p>
+			 the_author_meta('display_name')
+			 shenAleph_filter_authors();
+
+			  ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -63,7 +65,6 @@
 
 	$my_custom_field = $custom_fields['second_author'];
 
-// if not empty
  if (! empty($my_custom_field)) {
 
 	  foreach ( $my_custom_field as $key => $value ) {

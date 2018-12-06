@@ -262,6 +262,50 @@ function shenAleph_filter_authors(){
 
 }
 
+/******************************************
+* Displays second author of post
+*******************************************/
+function shenAleph_filter_second_author(){
+	$custom_fields = get_post_custom();
+
+	$my_custom_field = $custom_fields['second_author'];
+	//echo "$my_custom_field[1]";
+
+	if (! empty($my_custom_field)) {
+
+
+		foreach ( $my_custom_field as $key => $value ) {
+		//	echo $key . " => " . $value . "<br />";
+
+
+				$args_authors = array(
+									 // 'user_login'   => 'lillywimberly'
+										 'meta_key' => "last_name",
+										 //retrieve specific value b
+										 'meta_value' => "$my_custom_field[0]",
+										 'meta_compare' => 'LIKE'
+									 );
+			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
+					$author_loop = new WP_User_Query($args_authors);
+					$author_names = $author_loop->get_results();
+
+
+					if (! empty($author_names)) {
+
+						foreach ($author_names as $author_name) {
+
+							echo "$author_name->display_name <br />";
+						}
+					}
+						else {echo "No authors found";}
+
+
+			}
+  }
+}
+
+
+
 
 /**
  *
