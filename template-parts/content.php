@@ -63,6 +63,9 @@
 
 	$my_custom_field = $custom_fields['second_author'];
 
+// if not empty
+ if (! empty($my_custom_field)) {
+
 	  foreach ( $my_custom_field as $key => $value ) {
 	  	//echo $key . " => " . $value . "<br />";
 
@@ -90,7 +93,7 @@
 
 
 	    }
-
+}
 
 	?>
 	<footer class="entry-footer">
