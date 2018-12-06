@@ -637,6 +637,10 @@ margin-bottom: 2rem;
 	text-indent: 0!important;
 }
 
+.workAuthorByline + p {
+	text-indent: 0!important;
+}
+
 .dropcaps {
 			box-sizing: content-box;
      float:left;
