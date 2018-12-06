@@ -56,13 +56,14 @@
 			'after'  => '</div>',
 		) );
 		?>
-	</div> 
+	</div>
 	</div><!-- .entry-content -->
 <!-- author bio -->
-<section>
+<section class="row">
+  <div class="col-md-8 offset-md-2"</div>
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
-
+</div>
 </section>
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
