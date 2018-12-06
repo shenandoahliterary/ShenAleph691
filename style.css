@@ -415,6 +415,10 @@ textarea {
 }
 */
 
+.shen-logo-footer {
+	border: 1px solid black;
+}
+
 .typelogo-column {
 	margin-right: -3.75rem;
 	padding-left: 4rem;
@@ -878,6 +882,31 @@ table {
 	width: 100%;
 }
 
+footer {
+	margin-top: 3rem;
+}
+
+.fab {
+	font-size: 2rem;
+}
+
+.fa-facebook-square {
+	margin-right: 1.5rem;
+}
+
+.fa-instagram {
+	margin-right: 1.5rem;
+}
+
+.wlu-logo {
+	display: inline-block;
+	margin-left: 13rem;
+	margin-top: 2rem;
+}
+
+.copyright {
+	margin-left: 2rem;
+}
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
