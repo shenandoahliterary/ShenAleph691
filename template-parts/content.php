@@ -25,7 +25,7 @@
 				<!-- add byline -->
 				<p class="workAuthorByline"><?php
 /* should add to filter: if filter is empty then only the_author_meta; if filter is not empty, then all authors from filter */
-			 the_author_meta('display_name')
+			 the_author_meta('display_name');
 			 shenAleph_filter_authors();
 
 			  ?></p>
