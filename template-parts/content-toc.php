@@ -294,6 +294,7 @@ if ($query->have_posts()) :
 	</div>
 </section>
 <section class="container-fluid TOC-features">
+	testing feature section. Watch out for dragons and other weirdness.
 		<div class="card-group">
 			<?php
 			$args = array(
