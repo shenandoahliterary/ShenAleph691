@@ -59,6 +59,7 @@
 	</div><!-- .entry-content -->
 <!-- author bio -->
 	<hr>
+	<?php shenAleph_filter_add_bio(); ?>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 	<!-- add 2nd author bio -->
 	<?php
