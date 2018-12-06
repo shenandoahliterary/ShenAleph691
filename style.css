@@ -622,12 +622,7 @@ margin-bottom: 2rem;
 	line-height: 1.4 !important;
 }
 
-.category-translations .entry-content p {
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-	text-indent: 1.4em !important;
-	line-height: 1.4 !important;
-}
+
 
 .translatedWork p {
 	margin-top: 0 !important;
@@ -716,7 +711,7 @@ section.workAuthorBio a {
 }
 
 .tag-translated-poetry p {
-	text-indent: -1.4em!important;
+	text-indent: 0 !important;
 }
 
 .translatorBio {
