@@ -450,7 +450,8 @@ textarea {
 margin-top: 5.5rem;
 }
 
-.page-contributors {
+.page-contributors h1{
+	margin-bottom: 2rem;
  }
 
 .entry-title {
