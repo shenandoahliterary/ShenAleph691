@@ -71,7 +71,7 @@ $my_custom_field = $custom_fields['translator_lastname'];
 echo ">>$my_custom_field[1]";
 
   foreach ( $my_custom_field as $key => $value ) {
-  //	echo $key . " => " . $value . "<br />";
+  	echo $key . " => " . $value . "<br />";
 
     if ($key > 0) {
 
