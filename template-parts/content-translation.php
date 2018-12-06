@@ -73,7 +73,6 @@ echo ">>$my_custom_field[1]";
   foreach ( $my_custom_field as $key => $value ) {
   	echo $key . " => " . $value . "<br />";
 
-    if ($key > 0) {
 
       $args_authors = array(
                  // 'user_login'   => 'lillywimberly'
@@ -96,7 +95,7 @@ echo ">>$my_custom_field[1]";
         }
           else {echo "No authors found";}
 
-        }
+
     }
 
 
