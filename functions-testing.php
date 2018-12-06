@@ -228,22 +228,25 @@ function shenAleph_filter_authors(){
 
 	$my_custom_field = $custom_fields['author_lastname'];
 	//echo "$my_custom_field[1]";
+	echo "> $my_custom_field<br />";
+
+	if ($my_custom_field > 0) {
 
 		foreach ( $my_custom_field as $key => $value ) {
 			echo $key . " => " . $value . "<br />";
 
-			if ($key > 0) {
 
 				$args_authors = array(
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
-										 'meta_value' => "$my_custom_field[1]",
+										 //'meta_value' => "$my_custom_field[1]",
+										 'meta_value' => "$my_custom_field",
 										 'meta_compare' => 'LIKE',
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
 									 );
-			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
+				echo '<pre>'; print_r($args_authors); echo '</pre>';
 					$author_loop = new WP_User_Query($args_authors);
 					$author_names = $author_loop->get_results();
 
