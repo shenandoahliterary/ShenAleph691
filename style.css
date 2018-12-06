@@ -657,6 +657,10 @@ margin-bottom: 2rem;
 	text-indent: 0!important;
 }
 
+.footnotes p {
+	text-indent: 0;
+}
+
 section.workAuthorBio strong {
 	color: #df6348;
 }
