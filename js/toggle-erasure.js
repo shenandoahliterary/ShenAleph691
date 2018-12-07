@@ -7,7 +7,7 @@
 
     $("#select-unerased").click(function (e) {
       e.preventDefault();
-      console.log("unerased clicked");
+      //console.log("unerased clicked");
       $('#erased').hide('slow');
       $('#unerased').show('slow');
       $('#unerased').css('visibility', 'visible');
@@ -23,7 +23,7 @@
     });
     $("#select-erased").click(function (f) {
       f.preventDefault();
-      console.log("erasure clicked");
+    //  console.log("erasure clicked");
       $('#unerased').hide('slow');
       $('#erased').show('slow');
       $('#erased').css('visibility', 'visible');
