@@ -1,0 +1,55 @@
+<?php
+/**
+ * template for the Issues page
+ *
+ *
+ * @package ShenAleph
+ */
+
+get_header();
+?>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+			<section class="container-fluid">
+			<div class="row volumeIssue">
+			</div>
+			</section>
+
+			<section class="container page-contributors">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<h1 class="entry-header entry-title">Issues</h1>
+
+					<div class="card-deck">
+					  <div class="card">
+					    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+					    <div class="card-body">
+					      <h5 class="card-title">Card title</h5>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+					    <div class="card-body">
+					      <h5 class="card-title">Card title</h5>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+					    <div class="card-body">
+					      <h5 class="card-title">Card title</h5>
+
+					    </div>
+					  </div>
+					</div>
+
+
+					</div>
+				</div>
+			</section>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_footer();
