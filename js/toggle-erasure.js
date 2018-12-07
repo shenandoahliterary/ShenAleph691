@@ -23,9 +23,9 @@
     });
     $("#select-erased").click(function (f) {
       f.preventDefault();
-    //  console.log("erasure clicked");
+      console.log("erasure clicked");
       $('#unerased').hide('slow');
-    //  $('#erased').show('slow');
+      $('#erased').show('slow');
       $('#erased').css('visibility', 'visible');
       $('#unerased').css('visibility', 'hidden');
 
