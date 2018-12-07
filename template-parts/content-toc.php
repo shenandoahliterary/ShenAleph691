@@ -300,7 +300,6 @@ if ($query->have_posts()) :
 	</div>
 </section>
 <section class="container-fluid TOC-features">
-	testing feature section. Watch out for dragons and other weirdness.
 		<div class="card-group">
 			<?php
 			$args = array(
@@ -313,7 +312,7 @@ if ($query->have_posts()) :
 					 while($category_posts->have_posts()) :
 							$category_posts->the_post();
 			?>
-			<div class="card"><a href="">
+			<div class="card"><a href="<?php echo get_permalink(); ?>">
 		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
 		    <div class="card-body"><a href="">
