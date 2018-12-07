@@ -433,6 +433,8 @@ textarea {
 		font-size: 10.75rem;
 		text-transform: uppercase;
 		margin:0 0 -3rem 0;
+		text-align: center;
+
 }
 
 #typelogo a:link {
@@ -1519,6 +1521,8 @@ object-fit: cover;
  #typelogo {
 	 font-size: 3rem;
 	 margin: 0;
+	 text-align: center;
+
  }
 
  .TOC-quote {
