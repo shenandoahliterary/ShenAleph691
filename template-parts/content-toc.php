@@ -217,7 +217,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 		</div>
 
 
-		<h3>Interviews</h3>
+		<h3>Interview</h3>
 							<div>
 								<?php
 								remove_all_filters('posts_orderby');
