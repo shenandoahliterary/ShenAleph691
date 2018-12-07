@@ -105,7 +105,7 @@ get_header();
 </div>
 </div>
 <div class="row">
-	<div class="col-md-8 offset-md-2">
+	<div class="col-md-9 offset-md-2">
 		<div class="card-deck">
 
 						<div class="card"><a href="https://shenandoahliterary.org/641">
@@ -133,7 +133,7 @@ get_header();
 </div>
 </div>
 <div class="row">
-	<div class="col-md-8 offset-md-2">
+	<div class="col-md-9 offset-md-2">
 		<div class="card-deck">
 
 						<div class="card"><a href="https://shenandoahliterary.org/622">
