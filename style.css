@@ -642,6 +642,10 @@ margin-bottom: 2rem;
 	line-height: 1.4 !important;
 }
 
+
+.no-indent {
+		text-indent: 0em !important;
+}
 .category-translations  p {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
@@ -772,9 +776,7 @@ section.workAuthorBio a {
      text-indent: 1.4em;
  }
 
- .no-indent {
-     text-indent: 0em !important;
- }
+
 
  .indent {
      display: inline-block;
