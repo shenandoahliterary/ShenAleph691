@@ -943,8 +943,8 @@ footer {
 	margin-bottom: 2rem;
 }
 
-.card-img-top img {
-	overflow: hidden;
+.card-img {
+	overflow: hidden !important;
 }
 /*--------------------------------------------------------------
 # Forms
