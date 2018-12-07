@@ -1509,6 +1509,13 @@ object-fit: cover;
   .TOC-quote {
  	 font-size: 1.75rem;
   }
+
+ .volumeIssueBanner {
+text-align: center;
+}
+
+
+/* end max-width 767px*/
 }
 
 /*
@@ -1529,4 +1536,14 @@ object-fit: cover;
 	 font-size: 1.75rem;
  }
 
+ .volumeIssueBanner {
+text-align: center;
+}
+
+.shen-nav a.nav-item {
+	text-align: center;
+
+}
+
+/* END 320px - 480px*/
 }
