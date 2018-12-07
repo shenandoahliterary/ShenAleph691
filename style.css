@@ -773,7 +773,7 @@ section.workAuthorBio a {
  }
 
  .no-indent {
-     text-indent: 0 !important;
+     text-indent: 0em !important;
  }
 
  .indent {
