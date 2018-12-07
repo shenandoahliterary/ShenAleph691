@@ -10,6 +10,8 @@
     //  console.log("original clicked");
       $('#erased').hide('slow');
       $('#unerased').css('visibility', 'visible');
+      $('#erased').css('visibility', 'visible');
+
 
     //  $('#translation').css('visibility', 'hidden');
     //  $("#original").css('visibility', 'visible');
