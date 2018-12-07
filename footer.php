@@ -14,6 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer container">
+		<hr>
 		<div class="site-info row">
 			<div class="col-md-12">
 				<p class="text-right"><a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   </p>
