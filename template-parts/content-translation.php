@@ -60,7 +60,7 @@
 	</div><!-- .entry-content -->
 <!-- author bio -->
 <section class="row">
-  <div class="col-md-8 offset-md-2"</div>
+  <div class="col-md-8 offset-md-2 no-gutter"</div>
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 <!-- add translator bio -->
