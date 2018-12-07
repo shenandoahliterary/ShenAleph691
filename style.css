@@ -746,7 +746,7 @@ section.workAuthorBio a {
 }
 
 .translatorBio {
-	
+
 }
 
 #original p {
@@ -773,7 +773,7 @@ section.workAuthorBio a {
  }
 
  .no-indent {
-     text-indent: 0;
+     text-indent: 0 !important;
  }
 
  .indent {
