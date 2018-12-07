@@ -62,7 +62,8 @@
 	<div class="col-md-8 offset-md-2">
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
-
+</div>
+</div>
 </section>
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
