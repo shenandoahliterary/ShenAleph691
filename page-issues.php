@@ -22,105 +22,112 @@ get_header();
 					<h1 class="entry-header entry-title">Issues</h1>
 
 <div class="card-columns">
-					  <div class="card w-300"><a href="https://shenandoahliterary.org/621">
+	<div class="card w-300"><a href="https://shenandoahliterary.org/682">
+		<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">Volume 68 Issue 2</h5>
+		</div>
+	</a>
+	</div>
+					  <div class="card w-300"><a href="https://shenandoahliterary.org/681">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 68 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/621">
+						<div class="card w-300"><a href="https://shenandoahliterary.org/672">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 67 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/621">
+						<div class="card w-300"><a href="https://shenandoahliterary.org/671">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 67 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/621">
+						<div class="card w-300"><a href="https://shenandoahliterary.org/662">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 66 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/621">
+						<div class="card w-300"><a href="https://shenandoahliterary.org/661">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 66 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/621">
+						<div class="card w-300"><a href="https://shenandoahliterary.org/652">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 65 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/651">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 65 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/642">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 64 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/641">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 64 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/632">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 63 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/631">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 63 Issue 1</h5>
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
+						<div class="card"><a href="https://shenandoahliterary.org/622">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
-					    </div>
-						</a>
-					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
-					    </div>
-						</a>
-					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/621">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
+					      <h5 class="card-title">Volume 62 Issue 2</h5>
 					    </div>
 						</a>
 					  </div>
 						<div class="card"><a href="https://shenandoahliterary.org/621">
+					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
+					    <div class="card-body">
+					      <h5 class="card-title">Volume 62 Issue 1</h5>
+					    </div>
+						</a>
+					  </div>
+						<div class="card"><a href="https://shenandoahliterary.org/612">
+					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
+					    <div class="card-body">
+					      <h5 class="card-title">Volume 61 Issue 2</h5>
+					    </div>
+						</a>
+					  </div>
+						<div class="card"><a href="https://shenandoahliterary.org/611">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
 					      <h5 class="card-title">Volume 61 Issue 1</h5>
