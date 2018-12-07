@@ -1375,7 +1375,6 @@ height: auto;
 }
 
  .cover-image {
-object-fit: contain;
  }
 
 /*--------------------------------------------------------------
@@ -1553,6 +1552,10 @@ text-align: center;
 	text-align: center;
 	line-height: 1.1;
 
+}
+
+.cover-image {
+object-fit: contain;
 }
 
 /* END 320px - 480px*/
