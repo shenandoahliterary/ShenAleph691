@@ -45,7 +45,7 @@
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/about/">About</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/issues/">Issues</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/submit/">Submit</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/submit/">The Peak</a>
+					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/category/feature">The Peak</a>
 				</div>
 				</div>
 		</div>
