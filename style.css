@@ -823,7 +823,10 @@ section.workAuthorBio a {
 
 .TOCsection h3 {
 	text-align: center;
+}
 
+.TOC-column-1 h3 {
+	margin-top: 1.5rem;
 }
 
 .TOCsection p {

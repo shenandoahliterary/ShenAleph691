@@ -19,7 +19,7 @@ $upload_path =  $uploads['baseurl'];
 
 <section class="container TOCsection">
 <div class="row">
-	<div class="col-md-4 offset-md-1">
+	<div class="col-md-4 offset-md-1 TOC-column-1">
 
 		<h3>Fiction</h3>
 		<div>
