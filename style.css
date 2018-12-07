@@ -1540,8 +1540,13 @@ text-align: center;
 text-align: center;
 }
 
+.flex-column {
+	flex-direction: row !important;
+}
+
 .shen-nav a.nav-item {
 	text-align: center;
+	line-height: 1.1;
 
 }
 
