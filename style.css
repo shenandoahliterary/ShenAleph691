@@ -714,7 +714,7 @@ section.workAuthorBio strong {
 
 section.workAuthorBio a {
 	text-decoration: underline;
-	
+
 }
 
 .contributor-page-bio strong {
@@ -732,11 +732,11 @@ section.workAuthorBio a {
 
 .soliloquy-prev {
 	left: -2rem !important;
-	background-color: rgba(0, 0, 0, 0.05) !important;
+	background-color: rgba(0, 0, 0, 0.1) !important;
 }
 .soliloquy-next {
 	right: -2rem !important;
-	background-color: rgba(0, 0, 0, 0.05) !important;
+	background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .tag-translated-poetry + p* {
