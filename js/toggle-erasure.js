@@ -1,13 +1,13 @@
 ( function($) {
 //$(document).ready(function () {
-  console.log("in script");
+//  console.log("in script");
   $('#translation-control-panel').css('visibility', 'visible');
   $('#unerased').css('visibility', 'hidden');
   $('#erased').css('visibility', 'visible');
 
     $("#select-unerased").click(function (e) {
       e.preventDefault();
-      console.log("original clicked");
+    //  console.log("original clicked");
       $('#erased').hide('slow');
       $('#unerased').css('visibility', 'visible');
 
@@ -20,9 +20,12 @@
     });
     $("#select-erased").click(function (f) {
       f.preventDefault();
-      console.log("erasure clicked");
+    //  console.log("erasure clicked");
       $('#unerased').hide('slow');
       $('#erased').show('slow');
+      $('#erased').css('visibility', 'visible');
+      $('#unerased').css('visibility', 'hidden');
+
 
     });
 //});

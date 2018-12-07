@@ -10,7 +10,7 @@
 ?>
 <div class=""="row">
  <div id="erasure-control-panel" class="col-md-10 offset-md-2">
-<p class="text-right"><a href="#" id="select-erased">view original</a> <a href="" id="select-unerased">show unerased text</a> </p>
+<p class="text-right"><a href="#" id="select-erased">show erased text</a> <a href="" id="select-unerased">show unerased text</a> </p>
 </div>
 </div>
 
