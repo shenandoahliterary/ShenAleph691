@@ -157,17 +157,27 @@ get_header();
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/611">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 61 Issue 1</h5>
-					    </div>
-						</a>
-					  </div>
+
 </div>
 
 					</div>
 				</div>
+
+				<div class="row">
+					<div class="col-md-9 offset-md-2">
+						<div class="card-deck">
+							<div class="card"><a href="https://shenandoahliterary.org/611">
+								<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Volume 61 Issue 1</h5>
+								</div>
+							</a>
+							</div>
+</div>
+</div>
+</div>
+
+
 			</section>
 
 		</main><!-- #main -->
