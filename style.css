@@ -1501,6 +1501,7 @@ object-fit: cover;
 	#typelogo {
  	 font-size: 2.5rem;
  	 margin: 0;
+	 text-align: center;
   }
 
   .TOC-quote {
