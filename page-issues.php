@@ -18,7 +18,7 @@ get_header();
 
 			<section class="container page-issues">
 			<div class="row">
-				<div class="col-md-9 offset-md-2">
+				<div class="col-md-10 offset-md-1">
 					<h1 class="entry-header entry-title">Issues</h1>
 <div class="card-deck">
 	<div class="card w-300"><a href="https://shenandoahliterary.org/682">
@@ -48,7 +48,7 @@ get_header();
 
 
 <div class="row">
-	<div class="col-md-9 offset-md-2">
+	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
 
 
@@ -77,7 +77,7 @@ get_header();
 </div>
 </div>
 <div class="row">
-	<div class="col-md-9 offset-md-2">
+	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
 
 						<div class="card w-300"><a href="https://shenandoahliterary.org/652">
@@ -105,7 +105,7 @@ get_header();
 </div>
 </div>
 <div class="row">
-	<div class="col-md-9 offset-md-2">
+	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
 
 						<div class="card"><a href="https://shenandoahliterary.org/641">
@@ -164,7 +164,7 @@ get_header();
 				</div>
 
 				<div class="row">
-					<div class="col-md-9 offset-md-2">
+					<div class="col-md-10 offset-md-1">
 						<div class="card-deck">
 							<div class="card"><a href="https://shenandoahliterary.org/611">
 								<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
