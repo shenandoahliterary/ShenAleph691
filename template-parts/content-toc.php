@@ -314,7 +314,7 @@ if ($query->have_posts()) :
 			<div class="card"><a href="<?php echo get_permalink(); ?>">
 		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
-		    <div class="card-body"><a href="">
+		    <div class="card-body">
 				<p class="card-text"><?php	the_excerpt() ?></p>
 			</div>
 		</a>
