@@ -31,29 +31,12 @@ get_header();
 					<div class="col-md-8 offset-md-2">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<header class="entry-header">
-							<?php
-							if ( is_singular() ) :
-								the_title( '<h1 class="entry-title">', '</h1>' );
-							else :
-								the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-							endif;
 
-							if ( 'post' === get_post_type() ) :
-								?>
-								<div class="entry-meta">
-									<!-- add byline -->
-									<p class="workAuthorByline"><?php
-					/* should add to filter: if filter is empty then only the_author_meta; if filter is not empty, then all authors from filter */
-								 the_author_meta('display_name');
-								 echo "<br />";
-								 shenAleph_filter_authors();
 
-								  ?></p>
-								</div><!-- .entry-meta -->
-							<?php endif; ?>
+
+
 						</header><!-- .entry-header -->
 
-						<?php shenAleph_post_thumbnail(); ?>
 
 						<div class="entry-content">
 							<?php
@@ -92,4 +75,3 @@ get_header();
 
 <?php
 get_footer();
-?>
