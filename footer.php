@@ -18,8 +18,8 @@
 		<div class="site-info row">
 			<div class="col-md-12">
 				<p class="text-right"><a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   </p>
-<img class="img-fluid float-left shen-logo-footer" src="http://shenandoahliterary.org/681/files/2018/12/shen-w175.png"><img class="img-fluid wlu-logo" src="http://shenandoahliterary.org/681/files/2018/12/wlu-w300.png">
-<img class="img-fluid float-right" src="http://shenandoahliterary.org/681/files/2018/12/clmp.png">
+<img class="img-fluid float-left shen-logo-footer" src="https://shenandoahliterary.org/681/files/2018/12/shen-w175.png"><img class="img-fluid wlu-logo" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png">
+<img class="img-fluid float-right" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png">
 			</div>
 <div class="row">
 	<div class="col-md-12">
