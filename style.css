@@ -655,7 +655,9 @@ margin-bottom: 2rem;
 	line-height: 1.4 !important;
 }
 
-
+.trans-no-padding {
+	padding-left: 0 !important;
+}
 
 
 /* following used only for Tacarambeau work */
