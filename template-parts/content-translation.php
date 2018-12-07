@@ -36,7 +36,7 @@
 </div>
 </div>
 	<div class="entry-content row">
-		<div class="col-md-8 offset-md-2">
+		<div class="col-md-8 offset-md-2 no-gutter">
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -60,7 +60,7 @@
 	</div><!-- .entry-content -->
 <!-- author bio -->
 <section class="row">
-  <div class="col-md-8 offset-md-2 no-gutter"</div>
+  <div class="col-md-8 offset-md-2"</div>
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 <!-- add translator bio -->
