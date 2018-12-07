@@ -445,6 +445,10 @@ textarea {
 	color: #181818;
 }
 
+footer hr {
+	background-color: #181818 !important;
+}
+
 .smallcaps {
 	font-variant: small-caps;
 	font-variant-caps: small-caps;
