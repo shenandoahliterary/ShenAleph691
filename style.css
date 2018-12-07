@@ -435,6 +435,16 @@ textarea {
 		margin:0 0 -3rem 0;
 }
 
+#typelogo a:link {
+	text-decoration: none;
+	color: #181818;
+}
+
+#typelogo a:visited {
+	text-decoration: none;
+	color: #181818;
+}
+
 .smallcaps {
 	font-variant: small-caps;
 	font-variant-caps: small-caps;
