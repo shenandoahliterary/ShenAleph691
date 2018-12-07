@@ -36,7 +36,7 @@
 </div>
 </div>
 	<div class="entry-content row">
-		<div class="col-md-8 offset-md-2 no-gutter">
+		<div class="col-md-8 offset-md-2 no-gutters">
 		<?php
 		the_content( sprintf(
 			wp_kses(
