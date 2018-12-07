@@ -42,6 +42,15 @@ get_header();
 					    </div>
 						</a>
 					  </div>
+
+</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+
+
 						<div class="card w-300"><a href="https://shenandoahliterary.org/671">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
@@ -63,6 +72,12 @@ get_header();
 					    </div>
 						</a>
 					  </div>
+
+</div>
+</div>
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+
 						<div class="card w-300"><a href="https://shenandoahliterary.org/652">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
@@ -84,6 +99,12 @@ get_header();
 					    </div>
 						</a>
 					  </div>
+
+</div>
+</div>
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+
 						<div class="card"><a href="https://shenandoahliterary.org/641">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
@@ -105,6 +126,12 @@ get_header();
 					    </div>
 						</a>
 					  </div>
+
+</div>
+</div>
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+
 						<div class="card"><a href="https://shenandoahliterary.org/622">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
