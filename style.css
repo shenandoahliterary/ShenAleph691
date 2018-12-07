@@ -1554,6 +1554,10 @@ text-align: center;
 
 }
 
+.cover-row {
+	display: block;
+}
+
 .cover-image {
 object-fit: contain;
 }
