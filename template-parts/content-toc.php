@@ -313,12 +313,13 @@ if ($query->have_posts()) :
 					 while($category_posts->have_posts()) :
 							$category_posts->the_post();
 			?>
-			<div class="card">
+			<div class="card"><a href="">
 		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
-		    <div class="card-body">
+		    <div class="card-body"><a href="">
 				<p class="card-text"><?php	the_content() ?></p>
 			</div>
+		</a>
 		</div>
 
 			<?php
