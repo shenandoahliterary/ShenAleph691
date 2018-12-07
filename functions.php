@@ -244,6 +244,8 @@ function shenAleph_filter_authors(){
 	$my_custom_field = $custom_fields['author_lastname'];
 	//echo "$my_custom_field[1]";
 
+if (! empty($my_custom_field)) {
+
 		foreach ( $my_custom_field as $key => $value ) {
 		//	echo $key . " => " . $value . "<br />";
 
@@ -274,6 +276,7 @@ function shenAleph_filter_authors(){
 
 					}
 			}
+	}
 
 }
 
