@@ -85,6 +85,20 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'shenAleph_setup' );
 
+
+
+function change_logo_class( $html ) {
+
+    $html = str_replace( 'custom-logo', 'img-fluid', $html );
+  //  $html = str_replace( 'custom-logo-link', 'your-custom-class', $html );
+
+    return $html;
+}
+
+add_filter( 'get_custom_logo', 'change_logo_class' );
+
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -305,6 +319,18 @@ function shenAleph_filter_second_author(){
   }
 }
 
+/**
+ *
+ * testing redirect
+ */
+
+//function wpse66115_redirect_front_page() {
+//    if (is_main_site()) {
+//			exit(wp_redirect( 'http://shendev-clone.local/672/', 301));
+
+//		}
+//}
+//add_action( 'parse_request','wpse66115_redirect_front_page' );
 
 
 
