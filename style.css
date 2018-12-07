@@ -1487,8 +1487,14 @@ object-fit: cover;
 
 @media (min-width: 481px) and (max-width: 767px) {
 
- //CSS
+	#typelogo {
+ 	 font-size: 3rem;
+ 	 margin: 0;
+  }
 
+  .TOC-quote {
+ 	 font-size: 1.75rem;
+  }
 }
 
 /*
@@ -1501,6 +1507,10 @@ object-fit: cover;
  #typelogo {
 	 font-size: 3rem;
 	 margin: 0;
+ }
+
+ .TOC-quote {
+	 font-size: 1.75rem;
  }
 
 }
