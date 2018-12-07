@@ -26,7 +26,7 @@ get_header();
 				/* Start the Loop */
 				while ( have_posts() ) :
 					the_post();
-
+?>
 					<div class="row">
 					<div class="col-md-8 offset-md-2">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -77,7 +77,7 @@ get_header();
 							?>
 						</div><!-- .entry-content -->
 
-	
+
 						<footer class="entry-footer">
 							<?php shenAleph_entry_footer(); ?>
 						</footer><!-- .entry-footer -->
