@@ -825,7 +825,7 @@ section.workAuthorBio a {
 	text-align: center;
 }
 
-.TOC-column-1 h3:not(:first-child) {
+.TOC-column-1 h3 {
 	margin-top: 1.5rem;
 }
 
