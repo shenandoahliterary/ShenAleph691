@@ -923,6 +923,10 @@ footer {
 	margin-left: 2rem;
 }
 
+.card {
+	width: 300px;
+}
+
 .card a {
 	color: #181818;
 }
