@@ -12,7 +12,9 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-	<div class="entry-content">
+	<div class="entry-content container">
+		<div class="row">
+			<div class="col-md-8 offset-2">
 		<?php
 		the_content();
 
@@ -25,4 +27,6 @@
 
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
+</div>
+</div>
 </article><!-- #post-<?php the_ID(); ?> -->
