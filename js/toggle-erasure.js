@@ -7,8 +7,9 @@
 
     $("#select-unerased").click(function (e) {
       e.preventDefault();
-    //  console.log("original clicked");
+      console.log("unerased clicked");
       $('#erased').hide('slow');
+      $('#unerased').show('slow');
       $('#unerased').css('visibility', 'visible');
       $('#erased').css('visibility', 'hidden');
 
