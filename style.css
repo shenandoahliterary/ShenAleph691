@@ -1370,8 +1370,9 @@ object {
 }
 
 .img-fluid {
-object-fit: cover;
- }
+max-width: 100%;
+height: auto;
+}
 
  .cover-image {
 
