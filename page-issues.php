@@ -23,9 +23,9 @@ get_header();
 
 					<div class="card-deck">
 					  <div class="card">
-					    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/issue621.jpg" alt="Card image cap">
 					    <div class="card-body">
-					      <h5 class="card-title">Card title</h5>
+					      <h5 class="card-title">Volume 61 Issue 1</h5>
 					    </div>
 					  </div>
 					  <div class="card">
