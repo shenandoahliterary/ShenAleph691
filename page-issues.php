@@ -153,7 +153,7 @@ get_header();
 					    </div>
 						</a>
 					  </div>
-									<div class="card"><a href="https://shenandoahliterary.org/611">
+									<div class="card"><a href="https://shenandoahliterary.org/61">
 										<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/61.1.jpg" alt="Card image cap">
 										<div class="card-body">
 											<h5 class="card-title">Volume 61 Issue 1</h5>
