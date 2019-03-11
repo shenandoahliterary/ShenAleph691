@@ -8,12 +8,13 @@
  */
 
 ?>
+<!-- add erasure control panel
 <div class=""="row">
  <div id="erasure-control-panel" class="col-md-10 offset-md-2">
 <p class="text-right"><a href="#" id="select-erased"><i class="far fa-eye-slash"></i> show erased text</a> | <a href="" id="select-unerased">show unerased text</a> </p>
 </div>
 </div>
-
+-->
 <div class="row">
 <div class="col-md-8 offset-md-2">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -32,7 +33,13 @@
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
+<!-- add erasure control panel -->
+<div class=""="row">
+<div id="erasure-control-panel" class="col-md-10 offset-md-2">
+<p class="text-right"><a href="#" id="select-erased"><i class="far fa-eye-slash"></i> show erased text</a> | <a href="" id="select-unerased">show unerased text</a> </p>
+</div>
+</div>
+<!-- end erasure control panel -->
 </div>
 </div>
 	<div class="entry-content row">
