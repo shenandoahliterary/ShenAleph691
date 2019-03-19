@@ -31,7 +31,7 @@
 				</div>
 				<div class="row">
 		<div class="col-md-10 offset-md-1">
-			<h1 class="" id="typelogo"><a href="https://shenandoahLiterary.org/682/">Shenandoah</a></h1>
+			<p id="typelogo"><a href="https://shenandoahLiterary.org/682/">Shenandoah</a></p>
 		</div>
 		</div>
 		<div class="row">
@@ -41,7 +41,7 @@
 				</div>
 		</div>
 			<div class="col-md-5">
-				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
+				<div class="shen-nav d-flex flex-column flex-sm-row" >
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/about/">About</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/issues/">Issues</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/submit/">Submit</a>
