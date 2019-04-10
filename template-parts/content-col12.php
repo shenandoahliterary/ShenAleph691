@@ -26,6 +26,7 @@
 				<p class="workAuthorByline"><?php
  				//shenAleph_filter_authors();
  			 the_author_meta('display_name');
+			 echo "<br />";
 			 shenAleph_filter_second_author();
 			 ?></p>
 			</div><!-- .entry-meta -->
