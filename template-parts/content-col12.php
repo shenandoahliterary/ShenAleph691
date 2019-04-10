@@ -25,8 +25,9 @@
 				<!-- add byline -->
 				<p class="workAuthorByline"><?php
  				//shenAleph_filter_authors();
-				shenAleph_filter_second_author();
- 			 the_author_meta('display_name') ?></p>
+ 			 the_author_meta('display_name')
+			 shenAleph_filter_second_author();
+			 ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
