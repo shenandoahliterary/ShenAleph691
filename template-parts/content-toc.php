@@ -111,7 +111,9 @@ wp_reset_postdata();
 
 							<h3>Comics</h3>
 			    			<div>
-			    				<?php 	$visualarts_loop = new WP_Query('cat=7&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+			    				<?php
+									remove_all_filters('posts_orderby');
+										$visualarts_loop = new WP_Query('cat=7&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
 			    						while ($visualarts_loop->have_posts()) : $visualarts_loop->the_post();
 			    						 ?>
 											<p>
