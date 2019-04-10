@@ -113,8 +113,19 @@ wp_reset_postdata();
 			    			<div>
 			    				<?php
 									remove_all_filters('posts_orderby');
-										$visualarts_loop = new WP_Query('cat=7&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
-			    						while ($visualarts_loop->have_posts()) : $visualarts_loop->the_post();
+									$comics_args = array(
+										'category_name' => 'comics',
+										'order' => 'ASC',
+										'meta_key' => 'TOC_order',
+										'orderby' => 'meta_value_num',
+										'meta_type' => 'NUMERIC',,
+										'nopaging' => 'true',
+									);
+										$comics_loop = new WP_Query($comics_args);
+										//WP_Query('cat=7&orderby=meta_value&meta_key=author_lastname&order=asc&nopaging=true');
+
+
+			    						while ($comics_loop->have_posts()) : $comics_loop->the_post();
 			    						 ?>
 											<p>
 												<a href="<?php the_permalink(); ?>">
