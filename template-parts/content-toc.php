@@ -118,7 +118,7 @@ wp_reset_postdata();
 										'order' => 'ASC',
 										'meta_key' => 'TOC_order',
 										'orderby' => 'meta_value_num',
-										'meta_type' => 'NUMERIC',,
+										'meta_type' => 'NUMERIC',
 										'nopaging' => 'true',
 									);
 										$comics_loop = new WP_Query($comics_args);
