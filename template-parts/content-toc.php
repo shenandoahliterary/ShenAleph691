@@ -132,7 +132,7 @@ wp_reset_postdata();
 				    						<?php the_title(); ?>
 											</a><br />
 			    						<span class="author_name"><?php the_author(); ?> </span><br />
-											<?php shenAleph_filter_authors(); ?>
+											<?php shenAleph_filter_second_author(); ?>
 
 										</p>
 			    				<?php endwhile;
