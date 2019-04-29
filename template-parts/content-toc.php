@@ -53,7 +53,7 @@ wp_reset_postdata();
 			<?php
 			remove_all_filters('posts_orderby');
 			$novel_excerpt_args = array(
-				'category_name' => 'NovelExcerpt',
+				'category_name' => 'novel-excerpt',
 				'order' => 'ASC',
 				'meta_key' => 'TOC_order',
 				'orderby' => 'meta_value_num',
@@ -64,7 +64,7 @@ wp_reset_postdata();
 			$novel_excerpt_loop = new WP_Query($novel_excerpt_args);
 					while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
 					 ?>
-					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
+					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?>test</a><br />
 
 						<span class="author_name"><?php the_author();  ?></span>
 
