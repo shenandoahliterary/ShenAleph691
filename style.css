@@ -519,9 +519,7 @@ blockquote {
 	margin: 0 1.5em;
 }
 
-blockquote.triple-indent p {
-margin: 1.5em 0 1.5em 4.5em;
-}
+
 
 address {
 	margin: 0 0 1.5em;
@@ -622,6 +620,10 @@ body {
 	margin-top: 0em;
 	margin-bottom: 0;
 	text-indent: 1.4em;
+}
+
+blockquote.triple-indent p {
+margin: 1.5em 0 1.5em 4.5em;
 }
 
 .tag-no-indent p {
