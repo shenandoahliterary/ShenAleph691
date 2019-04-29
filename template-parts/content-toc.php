@@ -53,7 +53,7 @@ wp_reset_postdata();
 			<?php
 			remove_all_filters('posts_orderby');
 			$novel_excerpt_args = array(
-				'category_name' => "novel excerpt",
+				'category_name' => 'NovelExcerpt',
 				'order' => 'ASC',
 				'meta_key' => 'TOC_order',
 				'orderby' => 'meta_value_num',
