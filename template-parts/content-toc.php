@@ -48,7 +48,7 @@ wp_reset_postdata();
 
 		</div>
 
-		<h3>Novel Excerpt</h3>
+		<h3>Novel Excerptt</h3>
 		<div>
 			<?php
 			remove_all_filters('posts_orderby');
