@@ -519,6 +519,10 @@ blockquote {
 	margin: 0 1.5em;
 }
 
+blockquote.triple-indent p {
+margin-left: 4.5em;
+}
+
 address {
 	margin: 0 0 1.5em;
 }
