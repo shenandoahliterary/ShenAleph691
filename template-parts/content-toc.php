@@ -281,9 +281,10 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 										 <a href="<?php the_permalink(); ?>">
 										<?php the_title(); ?>
 										</a><br />
+										<!-- do not display author names in TOC for conversations  
 										<span class="author_name"><?php the_author(); ?> </span><br />
 										<?php shenAleph_filter_authors(); ?>
-
+-->
 									</p>
 								<?php endwhile;
 	wp_reset_postdata();
