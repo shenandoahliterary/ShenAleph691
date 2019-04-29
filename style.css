@@ -620,6 +620,10 @@ body {
 	text-indent: 1.4em;
 }
 
+.tag-no-indent p {
+	text-indent: 0 !important;
+}
+
 .category-novel-excerpt .entry-content p {
 	margin-top: 0em;
 	margin-bottom: 0;
