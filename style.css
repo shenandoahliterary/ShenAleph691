@@ -520,7 +520,7 @@ blockquote {
 }
 
 blockquote.triple-indent p {
-margin-left: 4.5em;
+margin: 1.5em 0 1.5em 4.5em;
 }
 
 address {
