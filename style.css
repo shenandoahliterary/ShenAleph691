@@ -471,9 +471,7 @@ footer hr {
 margin-top: 5.5rem;
 }
 
-.title-after-intro {
-	margin-bottom: 3rem;
-}
+
 
 .page-contributors h1{
 	margin-bottom: 2rem;
@@ -486,6 +484,10 @@ margin-top: 5.5rem;
 	margin-bottom: .25rem;
 	line-height: 1.1; /* was 1.1*/
 	padding-bottom: 0;
+}
+
+.title-after-intro {
+	margin-bottom: 3rem !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
