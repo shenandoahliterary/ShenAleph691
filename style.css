@@ -494,9 +494,7 @@ margin-top: 5.5rem;
 	font-size: 2rem;
 }
 
-.poetry-hr {
-	width: 10rem;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Theinhardt";
@@ -887,6 +885,13 @@ hr {
 	height: 1px;
 	margin-bottom: 1.5em;
 }
+
+
+.poetry-hr {
+	width: 20rem;
+	margin-bottom: 0;
+}
+
 
 ul, ol {
 	margin: 0 0 1.5em 3em;
