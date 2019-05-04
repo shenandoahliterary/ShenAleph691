@@ -49,7 +49,8 @@ get_header();
 					elseif (has_tag('translation') )  :
 							get_template_part( 'template-parts/content', 'translation' );
 
-
+					elseif (has_tag('hide-byline') )  :
+									get_template_part( 'template-parts/content', 'hide-byline' );
 
 					 else :
 
