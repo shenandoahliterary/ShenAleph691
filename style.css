@@ -490,6 +490,10 @@ margin-top: 5.5rem;
 	margin-bottom: 2.5rem !important;
 }
 
+.intro-title {
+	font-size: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Theinhardt";
 	font-weight: 500;
