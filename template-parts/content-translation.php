@@ -104,7 +104,7 @@ $my_custom_field = $custom_fields['translator_lastname'];
 
     }
 }
-endif;
+
 ?>
 </div>
 </section>
