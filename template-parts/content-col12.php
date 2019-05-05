@@ -9,7 +9,7 @@
 
 ?>
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-12 offset-md-1">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
