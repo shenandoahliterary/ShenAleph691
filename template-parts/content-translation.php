@@ -63,8 +63,15 @@
   <div class="col-md-8 offset-md-2"</div>
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
-<!-- add translator bio -->
+  <!-- if does not have tag translated-by-author, then add translatorBio  -->
 <?php
+
+if ( has_tag('translated-by-author') ) {
+
+}
+
+else {
+
 $custom_fields = get_post_custom();
 
 $my_custom_field = $custom_fields['translator_lastname'];
@@ -96,11 +103,13 @@ $my_custom_field = $custom_fields['translator_lastname'];
 
 
     }
-
-
+}
+endif;
 ?>
 </div>
 </section>
+<!-- end translatorBio  -->
+
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
