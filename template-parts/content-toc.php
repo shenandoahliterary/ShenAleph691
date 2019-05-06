@@ -64,7 +64,7 @@ wp_reset_postdata();
 			$novel_excerpt_loop = new WP_Query($novel_excerpt_args);
 					while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
 					 ?>
-					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?>test</a><br />
+					<p>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
 
 						<span class="author_name"><?php the_author();  ?></span>
 
@@ -281,7 +281,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 										 <a href="<?php the_permalink(); ?>">
 										<?php the_title(); ?>
 										</a><br />
-										<!-- do not display author names in TOC for conversations  
+										<!-- do not display author names in TOC for conversations
 										<span class="author_name"><?php the_author(); ?> </span><br />
 										<?php shenAleph_filter_authors(); ?>
 -->
