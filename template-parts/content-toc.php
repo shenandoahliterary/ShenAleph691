@@ -47,7 +47,7 @@ wp_reset_postdata();
 			?>
 
 		</div>
-
+<!-- testing -->
 		<h3>Novel Excerpt</h3>
 		<div>
 			<?php
