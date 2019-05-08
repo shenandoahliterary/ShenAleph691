@@ -218,7 +218,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 					$args = array(
 				'category_name' => 'poetry',
 				'author' => $author_id,
-				'orderby' => 'title',
+				'orderby' => 'date',
 				'order' => 'asc',
 				'nopaging' => 'true'
 				);
