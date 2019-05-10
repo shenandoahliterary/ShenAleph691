@@ -62,7 +62,7 @@
 <!-- author bio -->
 <section class="container">
 	<div class="row">
-	<div class="col-md-8 offset-md-2">
+	<div class="col-sm-11 offset-sm-1">
 	<hr>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 	<!-- add 2nd author bio -->
