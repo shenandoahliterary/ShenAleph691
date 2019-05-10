@@ -531,6 +531,14 @@ p.feature-subheading {
 	margin-right: 2rem;
 }
 
+.padding-adjust-left-15 {
+	padding-left: 15px;
+}
+
+.padding-adjust-left-10 {
+	padding-left: 10px;
+}
+
 dfn, cite, em, i {
 	font-style: italic;
 }

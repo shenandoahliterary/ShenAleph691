@@ -15,7 +15,7 @@
 </div>
 
 <div class="row">
-<div class="col-md-8 offset-md-2">
+<div class="col-md-8 offset-md-2 padding-adjust-left-15">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -36,7 +36,7 @@
 </div>
 </div>
 	<div class="entry-content category-translations row">
-		<div class="col-md-8 offset-md-2">
+		<div class="col-md-8 offset-md-2 padding-adjust-left-10">
 		<?php
 		the_content( sprintf(
 			wp_kses(
