@@ -657,6 +657,17 @@ body {
 	text-indent: 0;
 }
 
+.post-614 div.entry-content p {
+	margin-top: 0em;
+	margin-bottom: 0;
+	text-indent: 1.4em;
+	line-height: 1.4 !important;
+}
+
+
+.post-614 div.entry-content p:first-of-type {
+	text-indent: 0;
+}
 
 
 
