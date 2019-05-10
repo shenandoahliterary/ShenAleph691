@@ -523,6 +523,10 @@ line-height: 1.25rem;
 margin-bottom: 1.5rem;
 }
 
+.card-text {
+	font-size: 1.5rem;
+}
+
 dfn, cite, em, i {
 	font-style: italic;
 }
