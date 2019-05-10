@@ -40,6 +40,9 @@ get_header();
 					 if ( has_tag('columns-3') ) :
 						 get_template_part( 'template-parts/content', 'col3' );
 
+						 elseif ( has_tag('columns-11') ) :
+ 							 get_template_part( 'template-parts/content', 'col11' );
+
 						elseif ( has_tag('columns-12') ) :
 							 get_template_part( 'template-parts/content', 'col12' );
 
