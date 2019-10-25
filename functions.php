@@ -136,11 +136,11 @@ add_action( 'widgets_init', 'shenAleph_widgets_init' );
  * Enqueue scripts and styles.
  */
 function shenAleph_scripts() {
-	wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap_css', '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">' );
 	wp_enqueue_style( 'shenAleph', get_stylesheet_uri() );
 
-  wp_enqueue_style('font', '//shenandoahliterary.org/681/wp-content/themes/ShenAleph/thein/Theinhardt-Medium.css');
-	wp_enqueue_style('font-light', '//shenandoahliterary.org/681/wp-content/themes/ShenAleph/thein/Theinhardt-Light.css');
+  wp_enqueue_style('font', '//shenandoahliterary.org/691/wp-content/themes/ShenAleph/thein/Theinhardt-Medium.css');
+	wp_enqueue_style('font-light', '//shenandoahliterary.org/691/wp-content/themes/ShenAleph/thein/Theinhardt-Light.css');
 
 	wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.5.0/css/all.css');
 
