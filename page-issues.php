@@ -17,6 +17,7 @@ get_header();
 			</section>
 
 			<section class="container page-issues">
+<!-- top row -->
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
 					<h1 class="entry-header entry-title">Issues</h1>
@@ -47,6 +48,7 @@ get_header();
 </div>
 </div>
 
+<!-- 2nd row -->
 
 <div class="row">
 	<div class="col-md-10 offset-md-1">
@@ -78,6 +80,8 @@ get_header();
  </div>
 </div>
 </div>
+<!-- 3rd row -->
+
 <div class="row">
 	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
@@ -90,28 +94,29 @@ get_header();
 					    </div>
 						</a>
 					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/642">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/64.2.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 64 Issue 2</h5>
-					    </div>
-						</a>
-					  </div>
-						<div class="card"><a href="https://shenandoahliterary.org/641">
-							<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/64.1.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Volume 64 Issue 1</h5>
-							</div>
-						</a>
-						</div>
+
  </div>
 </div>
 </div>
+<!-- 4th row row -->
 <div class="row">
 	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
 
-
+			<div class="card"><a href="https://shenandoahliterary.org/642">
+				<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/64.2.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Volume 64 Issue 2</h5>
+				</div>
+			</a>
+			</div>
+			<div class="card"><a href="https://shenandoahliterary.org/641">
+				<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/64.1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Volume 64 Issue 1</h5>
+				</div>
+			</a>
+			</div>
 						<div class="card"><a href="https://shenandoahliterary.org/632">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/63.2.jpg" alt="Card image cap">
 					    <div class="card-body">
@@ -130,6 +135,7 @@ get_header();
   </div>
 </div>
 </div>
+<!-- bottom row -->
 <div class="row">
 	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
