@@ -56,27 +56,7 @@ get_header();
 
 
 
-						<div class="card w-300"><a href="https://shenandoahliterary.org/662">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/66.2.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 66 Issue 2</h5>
-					    </div>
-						</a>
-					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/661">
-					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/66.1.jpg" alt="Card image cap">
-					    <div class="card-body">
-					      <h5 class="card-title">Volume 66 Issue 1</h5>
-					    </div>
-						</a>
-					  </div>
-						<div class="card w-300"><a href="https://shenandoahliterary.org/652">
-							<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/65.2.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Volume 65 Issue 2</h5>
-							</div>
-						</a>
-						</div>
+
  </div>
 </div>
 </div>
@@ -86,7 +66,27 @@ get_header();
 	<div class="col-md-10 offset-md-1">
 		<div class="card-deck">
 
-
+			<div class="card w-300"><a href="https://shenandoahliterary.org/662">
+				<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/66.2.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Volume 66 Issue 2</h5>
+				</div>
+			</a>
+			</div>
+			<div class="card w-300"><a href="https://shenandoahliterary.org/661">
+				<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/66.1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Volume 66 Issue 1</h5>
+				</div>
+			</a>
+			</div>
+			<div class="card w-300"><a href="https://shenandoahliterary.org/652">
+				<img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/65.2.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Volume 65 Issue 2</h5>
+				</div>
+			</a>
+			</div>
 						<div class="card"><a href="https://shenandoahliterary.org/651">
 					    <img class="card-img-top" src="https://shenandoahliterary.org/681/files/2018/12/65.1.jpg" alt="Card image cap">
 					    <div class="card-body">
