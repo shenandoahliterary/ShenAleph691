@@ -22,6 +22,7 @@ get_header();
 				<div class="col-md-10 offset-md-1">
 					<h1 class="entry-header entry-title">Issues</h1>
 <div class="card-deck">
+	<!-- insert latest issues here -->
 
 
  </div>
