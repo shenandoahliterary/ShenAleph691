@@ -131,12 +131,40 @@ wp_reset_postdata();
 				endwhile;
 
 
-					while ($translation_loop->have_posts()) : $translation_loop->the_post();
-					 ?>
-					 <p>
-					 <a href="<?php the_permalink(); ?>">
-					<?php the_title(); ?>
+				foreach ($authornames as $author_id=>$author_lastname) {
+					$args = array(
+				'category_name' => 'poetry',
+				'author' => $author_id,
+				'orderby' => 'date',
+				'order' => 'asc',
+				'nopaging' => 'true'
+				);
+
+				$poetry_loop_single = new WP_Query($args);
+
+				$i = 0;
+				//open paragraph for title(s)/author
+				echo "<p>";
+					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
+					//for each author, print title, title, author
+					?>
+
+					<a href="<?php the_permalink(); ?>">
+				<?php the_title(); ?>
 					</a><br />
+
+
+
+					<?php
+					if ($i == 0) { ?>
+
+
+
+						<?php } ?>
+
+					<?php
+					$i++;
+				endwhile; ?>
 					<span class="author_name"><?php the_author(); ?> </span><br />
 					<?php
 					$custom_fields = get_post_custom();
@@ -147,6 +175,7 @@ wp_reset_postdata();
 	</p>
 			<?php endwhile;
 	wp_reset_postdata();
+}
 			?>
 		</div>
 
@@ -224,7 +253,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 					endwhile;
 
 
-//below should give posts by author
+//below groups posts by author
 
 				foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
