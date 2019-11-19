@@ -15,7 +15,7 @@ $upload_path =  $uploads['baseurl'];
 </div>
 <div class="row volumeIssue">
 </div>
-<p class="text-right art-credit"><a href="https://www.adrianacorral.com/" target="_blank">Adriana Corral</a>, from <em>Impunidad, Circulo Vicioso</em></p>
+<p class="text-right art-credit"><a href="https://www.adrianacorral.com/" target="_blank">Xavier Tavera</a></p>
 </section>
 
 <section class="container TOCsection">
