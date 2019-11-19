@@ -119,8 +119,8 @@ wp_reset_postdata();
 			);
 
 
-			$nonfiction_loop = new  WP_Query($translations_args);
-					while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
+			$translation_loop = new  WP_Query($translations_args);
+					while ($translation_loop->have_posts()) : $translation_loop->the_post();
 					 ?>
 					 <p>
 					 <a href="<?php the_permalink(); ?>">
