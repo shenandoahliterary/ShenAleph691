@@ -131,40 +131,12 @@ wp_reset_postdata();
 				endwhile;
 
 
-				foreach ($trans_authornames as $author_id=>$author_lastname) {
-									$args = array(
-								'category_name' => 'translation',
-								'author' => $author_id,
-								'orderby' => 'date',
-								'order' => 'asc',
-								'nopaging' => 'true'
-								);
-								?>
-								<?php
-								$translation_loop_single = new WP_Query($args);
-								$i = 0;
-								//open paragraph for title(s)/author
-								echo "<p>";
-									while ($translation_loop_single->have_posts()) : 				$translation_loop_single->the_post();
-									//for each author, print title, title, author
-									?>
-
-									<a href="<?php the_permalink(); ?>">
-								<?php the_title(); ?>
-									</a><br />
-
-
-
-									<?php
-									if ($i == 0) { ?>
-
-
-
-										<?php } ?>
-
-									<?php
-									$i++;
-								endwhile;
+					while ($translation_loop->have_posts()) : $translation_loop->the_post();
+					 ?>
+					 <p>
+					 <a href="<?php the_permalink(); ?>">
+					<?php the_title(); ?>
+					</a><br />
 					<span class="author_name"><?php the_author(); ?> </span><br />
 					<?php
 					$custom_fields = get_post_custom();
