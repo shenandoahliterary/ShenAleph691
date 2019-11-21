@@ -169,12 +169,12 @@ wp_reset_postdata();
 
 					<span class="author_name"><?php the_author(); ?> </span><br />
 					<?php
-					/*
+
 					$custom_fields = get_post_custom();
 
 					$my_custom_field = $custom_fields['translator_byline'];
 					echo "$my_custom_field[0]";
-					*/
+					
 					?>
 	</p>
 			<?php
