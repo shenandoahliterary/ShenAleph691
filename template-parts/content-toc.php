@@ -160,11 +160,11 @@ wp_reset_postdata();
 
 
 					<?php
-					/*
+					
 					if ($i == 0) {   }
 					$i++;
 				endwhile;
-				*/
+
 				?>
 
 					<span class="author_name"><?php the_author(); ?> </span><br />
@@ -174,7 +174,7 @@ wp_reset_postdata();
 
 					$my_custom_field = $custom_fields['translator_byline'];
 					echo "$my_custom_field[0]";
-					
+
 					?>
 	</p>
 			<?php
