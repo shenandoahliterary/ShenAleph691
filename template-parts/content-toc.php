@@ -160,11 +160,12 @@ wp_reset_postdata();
 
 
 					<?php
-					/*
+					/* definitely a problem here
 					if ($i == 0) {   }
 					$i++;
+						*/
 				endwhile;
-				*/
+
 				?>
 
 					<span class="author_name"><?php the_author(); ?> </span><br />
