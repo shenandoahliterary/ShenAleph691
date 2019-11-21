@@ -145,7 +145,8 @@ wp_reset_postdata();
 				$i = 0;
 				//open paragraph for title(s)/author
 				echo "<p>";
-					while ($trans_loop_single->have_posts()) : 				$trans_loop_single->the_post();
+					while ($trans_loop_single->have_posts()) :
+							$trans_loop_single->the_post();
 					//for each author, print title, title, author
 					?>
 
