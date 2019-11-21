@@ -106,7 +106,9 @@ wp_reset_postdata();
 
 		<h3>Translations</h3>
 		<div>
+
 			<?php
+			/*
 			remove_all_filters('posts_orderby');
 			$translations_args = array(
 				'category_name' => 'translations',
@@ -148,6 +150,7 @@ wp_reset_postdata();
 					while ($trans_loop_single->have_posts()) :
 							$trans_loop_single->the_post();
 					//for each author, print title, title, author
+					*/
 					?>
 
 					<a href="<?php the_permalink(); ?>">
