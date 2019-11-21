@@ -163,8 +163,9 @@ wp_reset_postdata();
 					/* definitely a problem here
 					if ($i == 0) {   }
 					$i++;
+						endwhile;
 						*/
-				endwhile;
+
 
 				?>
 
