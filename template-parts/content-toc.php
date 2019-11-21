@@ -108,7 +108,7 @@ wp_reset_postdata();
 		<div>
 
 			<?php
-			/*
+
 			remove_all_filters('posts_orderby');
 			$translations_args = array(
 				'category_name' => 'translations',
@@ -119,7 +119,7 @@ wp_reset_postdata();
 				'nopaging' => 'true',
 
 			);
-
+/*
 
 			$translation_loop = new  WP_Query($translations_args);
 			//insert code for grouping translations by author
