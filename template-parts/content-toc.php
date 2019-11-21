@@ -119,7 +119,7 @@ wp_reset_postdata();
 				'nopaging' => 'true',
 
 			);
-/*
+
 
 			$translation_loop = new  WP_Query($translations_args);
 			//insert code for grouping translations by author
@@ -132,7 +132,7 @@ wp_reset_postdata();
 
 				endwhile;
 
-
+/*
 				foreach ($trans_authornames as $author_id=>$author_lastname) {
 					$args = array(
 				'category_name' => 'translations',
