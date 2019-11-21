@@ -160,7 +160,7 @@ wp_reset_postdata();
 
 
 					<?php
-					/* definitely a problem here */
+				 
 					if ($i == 0) {   }
 					$i++;
 
@@ -182,7 +182,7 @@ wp_reset_postdata();
 	</p>
 			<?php
 
-		/*endwhile;*/
+
 	wp_reset_postdata();
 }
 			?>
