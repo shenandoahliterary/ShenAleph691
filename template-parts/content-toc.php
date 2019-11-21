@@ -131,21 +131,21 @@ wp_reset_postdata();
 				endwhile;
 
 
-				foreach ($authornames as $author_id=>$author_lastname) {
+				foreach ($trans_authornames as $author_id=>$author_lastname) {
 					$args = array(
-				'category_name' => 'poetry',
+				'category_name' => 'translations',
 				'author' => $author_id,
 				'orderby' => 'date',
 				'order' => 'asc',
 				'nopaging' => 'true'
 				);
 
-				$poetry_loop_single = new WP_Query($args);
+				$trans_loop_single = new WP_Query($args);
 
 				$i = 0;
 				//open paragraph for title(s)/author
 				echo "<p>";
-					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
+					while ($trans_loop_single->have_posts()) : 				$trans_loop_single->the_post();
 					//for each author, print title, title, author
 					?>
 
