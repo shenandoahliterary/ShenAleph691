@@ -11,11 +11,11 @@ $uploads = wp_upload_dir();
 $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard */
 	?>
-<img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2019/05/Impunidad_Circulo_Vicioso-640-height.jpg">
+<img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2019/11/blimp.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
-<p class="text-right art-credit"><a href="https://www.adrianacorral.com/" target="_blank">Xavier Tavera</a></p>
+<p class="text-right art-credit"><a href="https://www.xaviertavera.com/" target="_blank">Xavier Tavera</a></p>
 </section>
 
 <section class="container TOCsection">
@@ -160,7 +160,7 @@ wp_reset_postdata();
 
 
 					<?php
-				 
+
 					if ($i == 0) {   }
 					$i++;
 
