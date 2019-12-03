@@ -284,7 +284,7 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 				?>
 
 		</div>
-
+<p>&nbsp;</p>
 		<h3>Novel Excerpt</h3>
 		<div>
 			<?php
