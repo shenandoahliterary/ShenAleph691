@@ -44,7 +44,7 @@
 				<div class="shen-nav d-flex flex-column flex-sm-row" >
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/about/">About</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/issues/">Issues</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/submit/">Submit</a>
+					<a class="nav-item nav-link" href="https://shenandoahliterary.org/submissions/">Submit</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/thepeak">The Peak</a>
 				</div>
 				</div>
