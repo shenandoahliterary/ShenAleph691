@@ -15,7 +15,7 @@ $upload_path =  $uploads['baseurl'];
 </div>
 <div class="row volumeIssue">
 </div>
-<p class="text-right art-credit"><a href="https://www.xaviertavera.com/" target="_blank">Xavier Tavera</a></p>
+<p class="text-right art-credit"><a href="https://www.xaviertavera.com/" target="_blank">Xavier Tavera</a>, from <em>Borderlands</em></p>
 </section>
 
 <section class="container TOCsection">
