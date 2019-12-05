@@ -16,18 +16,7 @@
 		<div class="row">
 			<div class="col-md-8 offset-2">
 		<?php
-		the_content(sprintf(
-			wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'shenAleph' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			
-		));
+		the_content();
 
 
 		?>
