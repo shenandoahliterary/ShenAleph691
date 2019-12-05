@@ -15,6 +15,7 @@
 	<div class="entry-content container">
 		<div class="row">
 			<div class="col-md-8 offset-2">
+				test
 		<?php
 		the_content( sprintf(
 			wp_kses(
